@@ -174,10 +174,7 @@
     font-size: 15px !important;
     font-weight: 600 !important;
   }
-  .dashboard-section-title{
-    font-size: 15px !important;
-    font-weight: 600 !important;
-  }
+ 
   .recent-transaction{
     margin-left: 190px !important;
     font-size: 16px !important;
@@ -197,10 +194,7 @@
     margin-top: -10px !important;
     white-space: nowrap;
   }
-  .dashboard-section-title{
-    font-size: 16px !important;
-    font-size: 600 !important;
-  }
+
   .dashboard-balance-card{
      width: 310px !important;
      height: 263px !important;
