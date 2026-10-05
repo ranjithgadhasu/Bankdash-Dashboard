@@ -1,0 +1,494 @@
+/* =========================================
+   MOBILE BANK CARD
+   375px - 667px
+========================================= */
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+
+  /* Main card */
+  .bank-card {
+    width: 265px !important;
+    height: 170px !important;
+    min-width: 265px !important;
+    max-width: 265px !important;
+
+    border-radius: 18px !important;
+  }
+
+
+  /* Main card content */
+  .bank-card-content {
+    width: 100%;
+    height: 119px !important;
+
+    padding: 12px 16px !important;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+
+  /* Balance label */
+  .bank-card-balance-label {
+    font-size: 11px !important;
+    font-weight: 400 !important;
+
+    line-height: 13px !important;
+  }
+
+
+  /* Balance */
+  .bank-card-balance {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+
+    line-height: 19px !important;
+
+    margin-top: 1px !important;
+  }
+
+
+  /* Chip */
+  .bank-card-chip {
+    width: 29px !important;
+    height: 29px !important;
+  }
+
+
+  /* Card Holder / Valid Thru */
+  .holder-can {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    margin-top: 0 !important;
+  }
+
+
+  /* Labels */
+  .bank-card-label {
+    font-size: 10px !important;
+    font-weight: 400 !important;
+
+    line-height: 12px !important;
+  }
+
+
+  /* Names */
+  .bank-card-name {
+    font-size: 13px !important;
+    font-weight: 600 !important;
+
+    line-height: 16px !important;
+
+    margin-top: 1px !important;
+  }
+
+
+  /* Footer */
+  .bank-card-footer {
+    width: 100% !important;
+    height: 51px !important;
+
+    padding-left: 18px !important;
+    padding-right: 16px !important;
+
+    bottom: 0 !important;
+  }
+
+
+  /* Card number */
+  .bank-card-number {
+    font-size: 15px !important;
+    font-weight: 600 !important;
+
+    line-height: 18px !important;
+  }
+  /* Mastercard */
+  .bank-card-master {
+    width: 27px !important;
+    height: 18.41px !important;
+  }
+
+  /* Bank Card One*/
+
+  /* Main card */
+  .bank-card-one {
+    width: 265px !important;
+    height: 170px !important;
+
+    min-width: 265px !important;
+    max-width: 265px !important;
+
+    border-radius: 18px !important;
+  }
+
+
+  /* Main card content */
+  .bank-card-one-content {
+    width: 100%;
+    height: 119px !important;
+
+    padding: 12px 16px !important;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+
+  /* Balance label */
+  .bank-card-one-label {
+    font-size: 11px !important;
+    font-weight: 400 !important;
+
+    line-height: 13px !important;
+  }
+
+
+  /* Balance */
+  .bank-card-one-balance {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+
+    line-height: 19px !important;
+
+    margin-top: 1px !important;
+  }
+
+
+  /* Chip */
+  .bank-card-one-chip {
+    width: 29px !important;
+    height: 29px !important;
+  }
+
+
+  /* Card Holder / Valid Thru */
+  .bank-card-one-content > .grid {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    margin-top: 0 !important;
+  }
+
+
+  /* Card Holder / Valid Thru label */
+  .bank-card-one-label {
+    font-size: 10px !important;
+    font-weight: 400 !important;
+
+    line-height: 12px !important;
+  }
+
+
+  /* Card Holder name */
+  .bank-card-one-name {
+    font-size: 13px !important;
+    font-weight: 600 !important;
+
+    line-height: 16px !important;
+
+    margin-top: 1px !important;
+  }
+
+
+  /* Footer */
+  .bank-card-one-footer {
+    width: 100% !important;
+    height: 51px !important;
+
+    bottom: 0 !important;
+
+    padding-left: 18px !important;
+    padding-right: 16px !important;
+  }
+
+
+  /* Card number */
+  .bank-card-one-number {
+    font-size: 15px !important;
+    font-weight: 600 !important;
+
+    line-height: 18px !important;
+  }
+
+
+  /* Mastercard */
+  .bank-card-one-master {
+    width: 27px !important;
+    height: 18.41px !important;
+  }
+
+  /*TransactionCard.jsx*/
+
+  .transaction-card-container {
+    border: none !important;
+    box-shadow: none !important;
+
+    padding: 0 !important;
+    border-radius: 0 !important;
+  }
+
+  .transaction-card-list {
+    margin-left: 0 !important;
+    padding: 0 !important;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 16px !important;
+  }
+
+  .transaction-item {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 10px;
+  }
+
+  .transaction-left {
+    min-width: 0;
+     padding-left: 20px !important;
+    display: flex;
+    align-items: center;
+
+    gap: 18px !important;
+  }
+
+  .transaction-icon {
+    width: 50px !important;
+   height: 50px !important;
+
+    min-width: 50px !important;
+    min-height: 50px !important;
+
+    border-radius: 50%;
+  }
+
+  .transaction-icon img {
+    width: 25px;
+    height: 25px;
+   
+
+    object-fit: contain;
+  }
+
+  .transaction-info {
+    min-width: 0;
+  }
+
+  .transaction-title {
+    font-size: 14px !important;
+    line-height: 22px !important;
+    font-weight: 500 !important;
+
+    color: #1f2937;
+  }
+
+  .transaction-date {
+    font-size: 12px !important;
+    line-height: 20px !important;
+     font-weight: 400;
+    margin-top: 2px !important;
+
+    color: #7c97c8;
+  }
+
+  .transaction-amount {
+    margin-right: 40px !important;
+
+    font-size: 11px !important;
+    line-height: 20px !important;
+
+    font-weight: 500 !important;
+
+    flex-shrink: 0;
+  }
+}
+
+
+
+
+
+@media (min-width: 1032px) and (max-width: 1376px){
+ 
+    .bank-card{
+        width: 250px !important;
+    }
+    .bank-card-number{
+        font-size: 16px !important;
+        margin-left: -20px;
+    }
+
+    .bank-card-one{
+        width: 250px !important;
+        margin-left: -10px !important;
+    }
+    .bank-card-one-number{
+        font-size: 16px !important;
+        margin-left: -20px !important;
+    }
+
+    .transaction-card-container{
+        width: 280px !important;
+        height: 240px !important;
+        margin-left: -10px !important;
+    }
+    .transaction-title{
+        font-size: 13px !important;
+       white-space: nowrap;
+       margin-left: -5px !important;
+      
+    }
+    .transaction-icon{
+        margin-left: -25px !important;
+    }
+    .transaction-amount{
+        margin-left: 25px !important;
+    }
+    .transaction-date{
+       white-space: nowrap !important;  
+    }
+}
+/*
+
+   Tablet: 768px - 1023px
+================================ */
+@media (min-width: 768px) and (max-width: 1024px) {
+.bank-card{
+    width: 201px !important;
+    height: 171px !important;
+    margin-left: -5px !important;
+
+}
+.bank-card-balance-label{
+    font-size: 11px !important;
+    font-weight: 400 !important;
+}
+.bank-card-balance{
+    font-size: 16px !important;
+    font-weight: 600 !important;
+}
+.bank-card-chip{
+    width: 29px !important;
+    height: 29px !important;
+}
+.bank-card-footer{
+    height: 51px;
+}
+.bank-card-master {
+    width: 27px !important;
+    height: 18px !important;
+    margin-left: 5px !important;
+}
+.bank-card-label{
+       font-size: 10px !important;
+    font-weight: 400 !important;
+}
+
+
+.bank-card-number{
+        font-size: 15px !important;
+    font-weight: 600 !important;
+    white-space: nowrap;
+    margin-left: -10px !important;
+}
+.bank-card-name{
+       font-size: 13px !important;
+    font-weight: 600 !important;
+    margin-bottom: 20px !important;
+}
+
+.bank-card-one {
+      width: 201px !important;
+    height: 173px !important;
+    margin-left: -120px !important;
+    padding: 0px !important;
+}
+.bank-card-one-label{
+     font-size: 11px !important;
+    font-weight: 400 !important;
+}
+
+.bank-card-one-balance{
+      font-size: 16px !important;
+    font-weight: 600 !important;
+}
+.bank-card-one-chip {
+    width: 29px !important;
+    height: 29px !important;
+}
+ .bank-card-one-footer{
+    height: 51px;
+}   
+.bank-card-one-number{
+        font-size: 15px !important;
+    font-weight: 600 !important;
+    white-space: nowrap;
+    margin-left: -10px;
+}
+.bank-card-one-master {
+    width: 27px !important;
+    height: 18px !important;
+    margin-left: 5px !important;
+}
+.bank-card-one-label{
+      font-size: 11px !important;
+    font-weight: 400 !important;
+}
+.bank-card-one-name{
+       font-size: 13px !important;
+    font-weight: 600 !important;
+    margin-bottom: 20px !important;
+   
+}
+
+.transaction-card-container{
+    width: 231px !important;
+    height: 170px !important;
+    margin-left: 185px !important;
+}
+.transaction-title{
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    white-space: nowrap;
+}
+.transaction-date{
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    white-space: nowrap;
+}
+.transaction-icon{
+    width: 35px !important;
+    height: 35px !important;
+    margin-left: -30px !important;
+}
+.transaction-icon img{
+    width: 21px !important;
+    height: 17px !important;
+}
+.transaction-amount{
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    width: 20px !important;
+}
+
+.transaction-item{
+    margin-top: -20px !important;
+    width: 200px !important;
+}
+.transaction-card-list {
+    margin-top: 15px !important;
+}
+/*.bankcard-one-leayer{
+    margin-left: 90px !important;
+}*/
+}

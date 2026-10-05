@@ -1,0 +1,314 @@
+/* =========================================
+   MOBILE TRENDING STOCK
+   375px - 667px
+========================================= */
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+
+  /* =========================================
+     MAIN CONTAINER
+  ========================================= */
+
+  .trending-stock {
+    width: 325px !important;
+
+    min-width: 325px !important;
+    max-width: 325px !important;
+  }
+
+
+  /* =========================================
+     TITLE
+  ========================================= */
+
+  .trending-stock-title {
+    margin-bottom: 10px !important;
+
+    font-size: 16px !important;
+    line-height: 20px !important;
+
+    font-weight: 600 !important;
+
+    color: #1B2559 !important;
+  }
+
+
+  /* =========================================
+     CARD
+  ========================================= */
+
+  .trending-stock-card {
+    width: 325px !important;
+    height: auto !important;
+
+    min-width: 325px !important;
+    max-width: 325px !important;
+
+    padding: 14px 12px !important;
+
+    background: #ffffff !important;
+
+    border: none !important;
+
+    border-radius: 18px !important;
+
+    box-shadow: none !important;
+
+    overflow: hidden !important;
+  }
+
+
+  /* =========================================
+     TABLE WRAPPER
+  ========================================= */
+
+  .trending-stock-table-wrapper {
+    width: 100% !important;
+
+    overflow: hidden !important;
+  }
+
+
+  /* =========================================
+     TABLE
+  ========================================= */
+
+  .trending-stock-table {
+    width: 100% !important;
+
+    min-width: 0 !important;
+
+    table-layout: fixed !important;
+
+    border-collapse: collapse !important;
+  }
+
+
+  /* =========================================
+     HEADER
+  ========================================= */
+
+  .trending-stock-header {
+    height: 36px !important;
+
+    border-bottom: 1px solid #E8EEF5 !important;
+  }
+
+
+  .trending-stock-header th {
+    padding-bottom: 8px !important;
+
+    font-size: 12px !important;
+
+    line-height: 16px !important;
+
+    font-weight: 400 !important;
+
+    color: #718EBF !important;
+
+    white-space: nowrap !important;
+  }
+
+
+  /* =========================================
+     COLUMN WIDTHS
+  ========================================= */
+
+  .trending-stock-sl-heading {
+    width: 23% !important;
+  }
+
+  .trending-stock-name-heading {
+    width: 31% !important;
+  }
+
+  .trending-stock-price-heading {
+    width: 27% !important;
+  }
+
+  .trending-stock-return-heading {
+    width: 19% !important;
+  }
+
+
+  /* =========================================
+     ROW
+  ========================================= */
+
+  .trending-stock-row {
+    height: 36px !important;
+  }
+
+
+  /* =========================================
+     ALL TABLE TEXT
+  ========================================= */
+
+  .trending-stock-row td {
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+
+    font-size: 12px !important;
+
+    line-height: 16px !important;
+
+    font-weight: 400 !important;
+
+    white-space: nowrap !important;
+  }
+
+
+  /* =========================================
+     SL NO
+  ========================================= */
+
+  .trending-stock-sl {
+    font-size: 12px !important;
+
+    line-height: 16px !important;
+
+    font-weight: 500 !important;
+
+    color: #1F2937 !important;
+  }
+
+
+  /* =========================================
+     NAME
+  ========================================= */
+
+  .trending-stock-name {
+    font-size: 12px !important;
+
+    line-height: 16px !important;
+
+    font-weight: 400 !important;
+
+    color: #1F2937 !important;
+  }
+
+
+  /* =========================================
+     PRICE
+  ========================================= */
+
+  .trending-stock-price {
+    font-size: 12px !important;
+
+    line-height: 16px !important;
+
+    font-weight: 400 !important;
+
+    color: #1F2937 !important;
+  }
+
+
+  /* =========================================
+     RETURN
+  ========================================= */
+
+  .trending-stock-return {
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+
+    font-size: 12px !important;
+
+    line-height: 16px !important;
+
+    font-weight: 400 !important;
+  }
+
+}
+
+@media (min-width: 1032px) and (max-width: 1376px) {
+.trending-name{
+  padding-top: 22px !important;
+}
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .trending-stock {
+    width: 190px !important;
+    min-width: 0 !important;
+  }
+
+  .trending-stock-title {
+    width: 205px !important;
+    font-size: 18px !important;
+    margin-bottom: 12px !important;
+    margin-left: -50px;
+  }
+
+ .trending-stock-card {
+  width: 275px !important;
+  max-width: 275px !important;
+  padding: 14px !important;
+  border-radius: 20px !important;
+  margin-left: -70px !important;
+  box-sizing: border-box !important;
+}
+
+  .trending-stock-table-wrapper {
+    width: 100% !important;
+    overflow: hidden !important;
+  }
+
+  .trending-stock-table {
+    width: 100% !important;
+    min-width: 0 !important;
+    table-layout: fixed !important;
+  }
+
+  .trending-stock-header th {
+    font-size: 10px !important;
+    font-weight: 500 !important;
+    padding-bottom: 10px !important;
+    white-space: nowrap !important;
+    
+  }
+
+  .trending-stock-sl-heading,
+  .trending-stock-sl {
+    width: 38px !important;
+    
+  }
+
+  .trending-stock-name-heading,
+  .trending-stock-name {
+    width: 85px !important;
+  }
+
+  .trending-stock-price-heading,
+  .trending-stock-price {
+    width: 65px !important;
+  }
+
+  .trending-stock-return-heading,
+  .trending-stock-return {
+    width: 55px !important;
+  }
+
+
+  .trending-stock-row td {
+    padding-top: 11px !important;
+    padding-bottom: 9px !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    vertical-align: middle !important;
+  }
+
+  .trending-stock-sl {
+    font-size: 10px !important;
+  }
+
+  .trending-stock-name,
+  .trending-stock-price,
+  .trending-stock-return {
+    font-size: 11px !important;
+   
+  }
+  .trending-stock-return {
+    font-weight: 500 !important;
+  }
+}

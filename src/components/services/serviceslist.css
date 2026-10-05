@@ -1,0 +1,442 @@
+/* =========================================
+   MOBILE BANK SERVICES LIST
+   375px - 667px
+========================================= */
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+
+  /* Main container */
+  .service-list {
+    width: 325px !important;
+    min-width: 325px !important;
+    max-width: 325px !important;
+    margin-left: 10px !important;
+  }
+
+  /* Title */
+  .service-list-title {
+    margin: 0 0 10px !important;
+
+    font-size: 16px !important;
+    line-height: 20px !important;
+
+    font-weight: 600 !important;
+
+    color: #1b2559 !important;
+  }
+
+  /* List */
+  .service-list-mobile {
+    width: 325px !important;
+    min-width: 325px !important;
+    max-width: 325px !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+
+    gap: 10px !important;
+  }
+
+  /* =========================================
+     CARD
+  ========================================= */
+
+  .service-list-mobile-card {
+    width: 325px !important;
+    min-width: 325px !important;
+    max-width: 325px !important;
+
+    height: 69px !important;
+    min-height: 69px !important;
+    max-height: 69px !important;
+
+    padding: 12px 14px !important;
+
+    margin: 0 !important;
+
+    background: #ffffff !important;
+
+    border: none !important;
+    border-radius: 14px !important;
+
+    box-shadow: none !important;
+
+    box-sizing: border-box !important;
+
+    display: flex !important;
+    align-items: center !important;
+
+    position: relative !important;
+  }
+
+
+  /* =========================================
+     HEADER
+  ========================================= */
+
+  .service-list-mobile-header {
+    width: 100% !important;
+
+    height: 45px !important;
+
+    display: flex !important;
+    align-items: center !important;
+
+    gap: 12px !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+
+  /* =========================================
+     ICON BACKGROUND
+  ========================================= */
+
+  .service-list-mobile-icon {
+    width: 45px !important;
+    height: 45px !important;
+
+    min-width: 45px !important;
+    min-height: 45px !important;
+
+    max-width: 45px !important;
+    max-height: 45px !important;
+
+    border-radius: 14px !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    flex-shrink: 0 !important;
+  }
+
+
+  /* =========================================
+     ICON
+  ========================================= */
+
+  .service-list-mobile-icon-image {
+    width: 20px !important;
+    height: 20px !important;
+
+    min-width: 20px !important;
+    min-height: 20px !important;
+
+    max-width: 20px !important;
+    max-height: 20px !important;
+
+    object-fit: contain !important;
+  }
+
+
+  /* =========================================
+     CONTENT
+  ========================================= */
+
+  .service-list-mobile-content {
+    min-width: 0 !important;
+
+    width: auto !important;
+
+    flex: 1 1 auto !important;
+
+    overflow: hidden !important;
+  }
+
+
+  /* =========================================
+     TITLE
+  ========================================= */
+
+  .service-list-mobile-title {
+    margin: 0 !important;
+
+    font-size: 14px !important;
+    line-height: 18px !important;
+
+    font-weight: 500 !important;
+
+    color: #1f2937 !important;
+
+    white-space: nowrap !important;
+
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+
+
+  /* =========================================
+     DESCRIPTION
+  ========================================= */
+
+  .service-list-mobile-description {
+    margin: 1px 0 0 !important;
+
+    font-size: 12px !important;
+    line-height: 16px !important;
+
+    font-weight: 400 !important;
+
+    color: #718ebf !important;
+
+    white-space: nowrap !important;
+
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+
+
+  /* =========================================
+     HIDE MOBILE DETAILS
+  ========================================= */
+
+  .service-list-mobile-details {
+    display: none !important;
+  }
+
+
+  /* =========================================
+     VIEW DETAILS BUTTON
+  ========================================= */
+
+  .service-list-mobile-button {
+    width: auto !important;
+
+    min-width: 76px !important;
+
+    height: 26px !important;
+
+    min-height: 26px !important;
+    max-height: 26px !important;
+
+    margin: 0 0 0 8px !important;
+
+    padding: 0 !important;
+
+    border: none !important;
+    border-radius: 0 !important;
+
+    background: transparent !important;
+
+    color: #0000ff !important;
+
+    font-size: 12px !important;
+
+    line-height: 16px !important;
+
+    font-weight: 500 !important;
+
+    white-space: nowrap !important;
+
+    display: flex !important;
+
+    align-items: center !important;
+    justify-content: center !important;
+
+    flex-shrink: 0 !important;
+
+    box-sizing: border-box !important;
+  }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .service-list {
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  .service-list-title {
+    font-size: 18px !important;
+    line-height: 22px !important;
+    margin-bottom: 12px !important;
+  }
+
+  .service-list-desktop {
+    width: 100% !important;
+  }
+
+  /* Card */
+  .service-list-card {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+
+    padding: 10px 12px !important;
+    margin-bottom: 8px !important;
+
+    border-radius: 16px !important;
+    box-sizing: border-box !important;
+  }
+
+  /* ONE SINGLE ROW */
+  .service-list-row {
+    display: grid !important;
+
+    grid-template-columns:
+      160px
+      90px
+      90px
+      90px
+      minmax(100px, 1fr) !important;
+
+    gap: 8px !important;
+
+    width: 100% !important;
+    min-width: 0 !important;
+
+    align-items: center !important;
+  }
+
+  /*
+   * IMPORTANT:
+   * Override the existing Tailwind col-span-3 / col-span-2.
+   * Otherwise the items can occupy multiple grid columns.
+   */
+  .service-list-row > .service-list-service,
+  .service-list-row > .service-list-column,
+  .service-list-row > .service-list-action {
+    grid-column: auto !important;
+    grid-row: 1 !important;
+  }
+
+  /* =========================
+     SERVICE
+  ========================= */
+
+  .service-list-service {
+    width: 160px !important;
+    min-width: 160px !important;
+    max-width: 160px !important;
+
+    display: flex !important;
+    align-items: center !important;
+
+    gap: 8px !important;
+  }
+
+  .service-list-icon {
+    width: 45px !important;
+    height: 45px !important;
+
+    min-width: 45px !important;
+    max-width: 45px !important;
+
+    border-radius: 12px !important;
+  }
+
+  .service-list-icon-image {
+    width: 20px !important;
+    height: 20px !important;
+
+    object-fit: contain !important;
+  }
+
+  .service-list-content {
+    width: 112px !important;
+    min-width: 112px !important;
+    max-width: 112px !important;
+  }
+
+  .service-list-service-title {
+    font-size: 11px !important;
+    font-weight: 500;
+    line-height: 13px !important;
+
+    white-space: nowrap !important;
+
+    overflow: visible !important;
+    text-overflow: clip !important;
+  }
+
+  .service-list-service-description {
+    font-size: 10px !important;
+    font-weight: 400;
+    line-height: 12px !important;
+
+    margin-top: 2px !important;
+
+    white-space: nowrap !important;
+
+    overflow: visible !important;
+    text-overflow: clip !important;
+  }
+
+  /* =========================
+     COLUMNS
+  ========================= */
+
+  .service-list-column {
+    width: 90px !important;
+    min-width: 90px !important;
+    max-width: 90px !important;
+
+    overflow: visible !important;
+  }
+
+  .service-list-column-title {
+    font-size: 11px !important;
+    line-height: 12px !important;
+
+    white-space: nowrap !important;
+
+    overflow: visible !important;
+    text-overflow: clip !important;
+  }
+
+  .service-list-column-description {
+    font-size: 10px !important;
+    line-height: 11px !important;
+
+    margin-top: 2px !important;
+
+    white-space: nowrap !important;
+
+    overflow: visible !important;
+    text-overflow: clip !important;
+  }
+
+  /* =========================
+     VIEW DETAILS
+  ========================= */
+
+  .service-list-action {
+    width: 100% !important;
+    min-width: 0 !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+
+    white-space: nowrap !important;
+  }
+
+  .service-list-button {
+    width: 120px !important;
+    min-width: 120px !important;
+    max-width: 120px !important;
+
+    height: 30px !important;
+
+    padding: 0 !important;
+    margin: 0 !important;
+
+    font-size: 11px !important;
+    line-height: 28px !important;
+
+    white-space: nowrap !important;
+
+    flex-shrink: 0 !important;
+  }
+
+  /* Prevent any child from creating another row */
+  .service-list-row > * {
+    align-self: center !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+}

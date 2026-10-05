@@ -1,0 +1,276 @@
+/* =========================================
+   MOBILE CARD EXPENSE STATISTICS
+   375px - 667px
+========================================= */
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+
+  /* =========================================
+     MAIN CARD
+  ========================================= */
+
+  .expense-pie-chart {
+    width: 325px !important;
+    height: 300px !important;
+
+    min-width: 325px !important;
+    max-width: 325px !important;
+
+    padding: 10px 12px !important;
+
+    background: #ffffff !important;
+
+    border: none !important;
+    border-radius: 16px !important;
+    margin-left: 10px !important;
+    box-shadow: none !important;
+
+    overflow: hidden !important;
+  }
+
+
+  /* =========================================
+     CHART CONTAINER
+  ========================================= */
+
+  .expense-pie-chart-container {
+    width: 100% !important;
+    height: 215px !important;
+
+    position: relative !important;
+
+    display: block !important;
+  }
+
+
+  /* =========================================
+     RECHARTS RESPONSIVE CONTAINER
+  ========================================= */
+
+  .expense-pie-chart-container
+  .recharts-responsive-container {
+    width: 100% !important;
+    height: 100% !important;
+
+    min-width: 0 !important;
+    min-height: 0 !important;
+  }
+
+
+  /* =========================================
+     RECHARTS WRAPPER
+  ========================================= */
+
+  .expense-pie-chart-container
+  .recharts-wrapper {
+    position: relative !important;
+  }
+
+
+  /* =========================================
+     CHART SVG
+  ========================================= */
+
+  .expense-pie-chart-container
+  .recharts-surface {
+    overflow: visible !important;
+  }
+
+
+  /* =========================================
+     PIE SLICES
+  ========================================= */
+
+  .expense-pie-chart-cell {
+    stroke: none !important;
+  }
+
+  .expense-pie-chart-inner-cell {
+    stroke: none !important;
+  }
+
+
+  /* =========================================
+     LEGEND
+  ========================================= */
+
+  .expense-pie-chart-legend {
+    width: 100% !important;
+
+    display: grid !important;
+
+    grid-template-columns: 1fr 1fr !important;
+
+    column-gap: 12px !important;
+    row-gap: 8px !important;
+
+    margin-top: 16px !important;
+
+    padding: 0 60px !important;
+  }
+
+
+  /* =========================================
+     LEGEND ITEM
+  ========================================= */
+
+  .expense-pie-chart-legend-item {
+    display: flex !important;
+
+    align-items: center !important;
+
+    gap: 8px !important;
+
+    min-width: 0 !important;
+  }
+
+
+  /* =========================================
+     LEGEND DOT
+  ========================================= */
+
+  .expense-pie-chart-legend-dot {
+    width: 12px !important;
+    height: 12px !important;
+
+    min-width: 12px !important;
+    min-height: 12px !important;
+
+    border-radius: 50% !important;
+
+    flex-shrink: 0 !important;
+  }
+
+
+  /* =========================================
+     LEGEND TEXT
+  ========================================= */
+
+  .expense-pie-chart-legend-text {
+    font-size: 12px !important;
+
+    line-height: 16px !important;
+
+    font-weight: 400 !important;
+
+    color: #718EBF !important;
+
+    white-space: nowrap !important;
+  }
+
+}
+
+@media (min-width: 1032px) and (max-width: 1376px) {
+
+  .expense-pie-chart {
+    width: 251px !important;
+    height: 300px !important;
+    padding: 1px !important;
+    border-radius: 24px !important;
+  }
+
+  .expense-pie-chart-container {
+    width: 100% !important;
+    height: 90% !important;
+  }
+
+  .expense-pie-chart-legend {
+    gap: 8px 6px !important;
+    margin-top: 2px !important;
+    padding: 0 4px !important;
+  }
+
+  .expense-pie-chart-legend-item {
+    gap: 5px !important;
+    margin-top: -10px;
+    margin-left: 15px !important;
+  }
+
+  .expense-pie-chart-legend-dot {
+    width: 10px !important;
+    height: 10px !important;
+    min-width: 10px !important;
+  }
+
+  .expense-pie-chart-legend-text {
+    font-size: 11px !important;
+    white-space: nowrap;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .expense-pie-chart {
+    width: 258px !important;
+    max-width: 258px !important;
+    height: 258px !important;
+    padding: 14px !important;
+    border-radius: 20px !important;
+    box-sizing: border-box !important;
+    overflow: visible !important;
+  }
+
+  /* Pie area */
+  .expense-pie-chart-container {
+    width: 100% !important;
+    height: 150px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    overflow: visible !important;
+  }
+
+  .expense-pie-chart-container
+  .recharts-responsive-container {
+    width: 100% !important;
+    height: 110px !important;
+    padding-top: 11px !important;
+    overflow: visible !important;
+  }
+
+  .expense-pie-chart-container
+  .recharts-wrapper {
+    overflow: visible !important;
+  }
+
+  .expense-pie-chart-container svg {
+    overflow: visible !important;
+  }
+
+  /* Legend */
+  .expense-pie-chart-legend {
+    width: 100% !important;
+    grid-template-columns: 1fr 1fr !important;
+    column-gap: 8px !important;
+    row-gap: 6px !important;
+    margin-top: 20px !important;
+    padding-left: 30px !important;
+    padding-right: 4px !important;
+
+    box-sizing: border-box !important;
+  }
+
+  .expense-pie-chart-legend-item {
+    min-width: 0 !important;
+    gap: 5px !important;
+    font-size: 12px !important;
+    display: flex !important;
+    align-items: center !important;
+  }
+
+  .expense-pie-chart-legend-dot {
+    width: 12px !important;
+    height: 12px !important;
+    min-width: 12px !important;
+  }
+
+  .expense-pie-chart-legend-text {
+    font-size: 12px !important;
+    font-weight: 500 !important;
+
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+}

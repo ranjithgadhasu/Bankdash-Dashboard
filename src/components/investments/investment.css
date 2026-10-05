@@ -1,0 +1,194 @@
+/* =========================================
+   MOBILE INVESTMENT STATS
+   375px - 667px
+========================================= */
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+
+  /* =========================================
+     MAIN CONTAINER
+  ========================================= */
+
+  .investment-stats {
+    width: 325px !important;
+
+    display: grid !important;
+
+    grid-template-columns: 1fr !important;
+
+    gap: 16px !important;
+  }
+
+
+  /* =========================================
+     STAT CARD
+  ========================================= */
+
+  .investment-stat-card {
+    width: 325px !important;
+    height: 85px !important;
+
+    min-width: 325px !important;
+    max-width: 325px !important;
+
+    padding: 10px 0 !important;
+
+    display: flex !important;
+
+    align-items: center !important;
+
+    justify-content: flex-start !important;
+
+    gap: 0 !important;
+
+    background: #ffffff !important;
+
+    border: none !important;
+
+    border-radius: 18px !important;
+
+    box-shadow: none !important;
+  }
+
+
+  /* =========================================
+     ICON BACKGROUND
+  ========================================= */
+
+  .investment-stat-icon {
+    width: 45px !important;
+    height: 45px !important;
+
+    min-width: 45px !important;
+    min-height: 45px !important;
+
+    margin-left: 62px !important;
+
+    border-radius: 50% !important;
+
+    display: flex !important;
+
+    align-items: center !important;
+
+    justify-content: center !important;
+
+    flex-shrink: 0;
+  }
+
+
+  /* =========================================
+     ICON IMAGE
+  ========================================= */
+
+  .investment-stat-image {
+    width: 20px !important;
+    height: 20px !important;
+
+    object-fit: contain;
+  }
+
+
+  /* =========================================
+     CONTENT
+  ========================================= */
+
+  .investment-stat-content {
+    min-width: 0;
+
+    margin-left: 16px !important;
+
+    display: flex !important;
+
+    flex-direction: column !important;
+
+    justify-content: center !important;
+
+    align-items: flex-start !important;
+  }
+
+
+  /* =========================================
+     TITLE
+  ========================================= */
+
+  .investment-stat-title {
+    margin: 0 !important;
+
+    font-size: 12px !important;
+
+    line-height: 16px !important;
+
+    font-weight: 400 !important;
+
+    color: #718EBF !important;
+
+    white-space: nowrap;
+  }
+
+
+  /* =========================================
+     VALUE
+  ========================================= */
+
+  .investment-stat-value {
+    margin: 1px 0 0 !important;
+
+    font-size: 16px !important;
+
+    line-height: 20px !important;
+
+    font-weight: 600 !important;
+
+    color: #1F2937 !important;
+
+    white-space: nowrap;
+  }
+
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .investment-stats {
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    gap: 40px !important;
+    width: 100% !important;
+    
+  }
+
+  .investment-stat-card {
+    padding: 12px !important;
+    gap: 10px !important;
+    margin-left: -18px !important;
+    min-width: 210px !important;
+    border-radius: 20px !important;
+  }
+
+  .investment-stat-icon {
+    width: 50px !important;
+    height: 50px !important;
+    min-width: 50px !important;
+  }
+
+  .investment-stat-image {
+    width: 20px !important;
+    height: 20px !important;
+  }
+
+  .investment-stat-content {
+    min-width: 0 !important;
+  }
+
+  .investment-stat-title {
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .investment-stat-value {
+    font-size: 16px !important;
+    font-weight: 400px !important;
+    white-space: nowrap;
+  }
+
+}

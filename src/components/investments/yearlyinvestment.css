@@ -1,0 +1,189 @@
+/* =========================================
+   MOBILE YEARLY INVESTMENT CHART
+   375px - 667px
+========================================= */
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+
+  /* =========================================
+     MAIN CONTAINER
+  ========================================= */
+
+  .yearly-investment-chart {
+    width: 325px !important;
+
+    min-width: 325px !important;
+    max-width: 325px !important;
+    margin-left: 10px !important;
+  }
+
+
+  /* =========================================
+     TITLE
+  ========================================= */
+
+  .yearly-investment-title {
+    margin-bottom: 10px !important;
+
+    font-size: 16px !important;
+    line-height: 20px !important;
+
+    font-weight: 600 !important;
+
+    color: #1B2559 !important;
+  }
+
+
+  /* =========================================
+     CARD
+  ========================================= */
+
+  .yearly-investment-card {
+    width: 325px !important;
+    height: 225px !important;
+
+    min-width: 325px !important;
+    max-width: 325px !important;
+
+    padding: 10px 12px !important;
+
+    background: #ffffff !important;
+
+    border: none !important;
+
+    border-radius: 14px !important;
+
+    box-shadow: none !important;
+
+    overflow: hidden !important;
+  }
+
+
+  /* =========================================
+     CHART CONTAINER
+  ========================================= */
+
+  .yearly-investment-container {
+    width: 100% !important;
+
+    height: 205px !important;
+  }
+
+
+  /* =========================================
+     RECHARTS CONTAINER
+  ========================================= */
+
+  .yearly-investment-responsive {
+    width: 100% !important;
+
+    height: 100% !important;
+  }
+
+
+  /* =========================================
+     X AXIS
+  ========================================= */
+
+  .yearly-investment-x-axis
+  .recharts-cartesian-axis-tick-value {
+    fill: #718EBF !important;
+
+    font-size: 11px !important;
+
+    font-weight: 400 !important;
+  }
+
+
+  /* =========================================
+     Y AXIS
+  ========================================= */
+
+  .yearly-investment-y-axis
+  .recharts-cartesian-axis-tick-value {
+    fill: #718EBF !important;
+
+    font-size: 10px !important;
+
+    font-weight: 400 !important;
+  }
+
+
+  /* =========================================
+     GRID
+  ========================================= */
+
+  .yearly-investment-grid line {
+    stroke: #DCE7F4 !important;
+
+    stroke-dasharray: 4 5;
+  }
+
+
+  /* =========================================
+     INVESTMENT LINE
+  ========================================= */
+
+  .yearly-investment-line {
+    stroke: #F59E0B !important;
+
+    stroke-width: 2.5px !important;
+  }
+
+
+  /* =========================================
+     LINE DOTS
+  ========================================= */
+
+  .yearly-investment-line circle {
+    r: 3px;
+  }
+
+
+  /* =========================================
+     TOOLTIP
+  ========================================= */
+
+  .yearly-investment-tooltip {
+    outline: none !important;
+  }
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .yearly-investment-chart {
+    width: 300px !important;
+  }
+
+  .yearly-investment-title {
+    font-size: 18px !important;
+    font-weight: 600;
+    margin-bottom: 12px !important;
+  }
+
+  .yearly-investment-card {
+    width: 300px !important;
+    padding: 14px !important;
+    border-radius: 20px !important;
+  }
+
+  .yearly-investment-container {
+    width: 100% !important;
+    height: 210px !important;
+  }
+
+  .yearly-investment-responsive {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .yearly-investment-x-axis text,
+  .yearly-investment-y-axis text {
+    font-size: 12px !important;
+    font-weight: 400;
+  }
+
+}

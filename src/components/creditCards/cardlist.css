@@ -1,0 +1,451 @@
+/* =========================================
+   MOBILE CARD LIST
+   375px - 667px
+========================================= */
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+    .credit-card-list-section {
+        margin-top: 370px !important;
+         margin-left: -120px !important;
+    }
+
+    /* Main list */
+    .card-list {
+        width: 325px !important;
+        min-width: 325px !important;
+        max-width: 325px !important;
+
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 10px !important;
+    }
+    .credit-card-list-section h2{
+    font-size: 16px !important;
+    font-weight: 600;
+}
+
+    /* Card */
+    .card-list-item {
+        width: 325px !important;
+        height: 69px !important;
+
+        min-width: 325px !important;
+        max-width: 325px !important;
+
+        padding: 8px 12px !important;
+
+        background: #ffffff !important;
+
+        border: none !important;
+        border-radius: 12px !important;
+
+        box-shadow: none !important;
+    }
+
+
+    /* Row */
+    .card-list-row {
+        width: 100% !important;
+        height: 100% !important;
+
+        display: flex !important;
+        align-items: center !important;
+
+        gap: 12px !important;
+    }
+
+
+    /* Icon column */
+    .card-list-icon-column {
+        width: 45px !important;
+        min-width: 45px !important;
+
+        display: flex !important;
+        justify-content: center !important;
+
+        flex-shrink: 0 !important;
+    }
+
+
+    /* Icon background */
+    .card-list-icon {
+        width: 45px !important;
+        height: 45px !important;
+
+        min-width: 45px !important;
+        min-height: 45px !important;
+
+        border-radius: 12px !important;
+
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+
+        flex-shrink: 0 !important;
+    }
+
+
+    /* Icon image */
+    .card-list-icon-image {
+        width: 20px !important;
+        height: 20px !important;
+
+        min-width: 20px !important;
+        min-height: 20px !important;
+
+        object-fit: contain !important;
+    }
+
+
+    /* Remove desktop grid sizing */
+    .card-list-type,
+    .card-list-bank,
+    .card-list-number,
+    .card-list-holder {
+        display: none !important;
+    }
+
+
+    /* Card type */
+    .card-list-type-responsive {
+        display: block !important;
+
+        width: auto !important;
+    }
+
+
+    /* Label */
+    .card-list-label {
+        margin: 0 0 2px !important;
+
+        font-size: 14px !important;
+        line-height: 17px !important;
+
+        font-weight: 500 !important;
+
+        color: #1F2937 !important;
+    }
+
+
+    /* Value */
+    .card-list-value {
+        margin: 0 !important;
+
+        font-size: 12px !important;
+        line-height: 15px !important;
+
+        font-weight: 400 !important;
+
+        color: #718EBF !important;
+
+        white-space: nowrap !important;
+    }
+
+
+    /* Bank */
+    .card-list-bank-responsive {
+        display: block !important;
+
+        width: 70px !important;
+        min-width: 70px !important;
+    }
+
+
+    /* Card type column */
+    .card-list-type-responsive {
+        width: 85px !important;
+        min-width: 85px !important;
+    }
+
+
+    /* View Details */
+    .card-list-action {
+        display: flex !important;
+
+        justify-content: flex-end !important;
+
+        align-items: center !important;
+
+        margin-left: auto !important;
+
+        flex: 1 !important;
+
+        min-width: 0 !important;
+    }
+
+
+    .card-list-action-button {
+        padding: 0 !important;
+
+        margin: 0 !important;
+
+        font-size: 11px !important;
+        line-height: 14px !important;
+
+        font-weight: 500 !important;
+
+        color: #0000FF !important;
+
+        white-space: nowrap !important;
+
+        background: transparent !important;
+
+        border: none !important;
+    }
+
+}
+
+
+@media (min-width: 1032px) and (max-width: 1376px) {
+
+    .card-list {
+        width: 487px !important;
+        max-width: 487px !important;
+    }
+
+    .card-list-item {
+        width: 587px !important;
+        max-width: 532px !important;
+        padding: 14px !important;
+
+        box-sizing: border-box !important;
+    }
+
+    .card-list-row {
+        width: 100% !important;
+        height: 60px !important;
+
+        gap: 10px !important;
+
+        display: grid !important;
+        align-items: center !important;
+    }
+
+    /* Center every column vertically */
+    .card-list-row>* {
+        align-self: center !important;
+    }
+
+    .card-list-icon-column {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .card-list-icon {
+        width: 42px !important;
+        height: 42px !important;
+
+        border-radius: 12px !important;
+
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .card-list-icon-image {
+        width: 21px !important;
+        height: 21px !important;
+    }
+
+    /* Content columns */
+    .card-list-type,
+    .card-list-bank,
+    .card-list-number,
+    .card-list-holder {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+    }
+
+    .card-list-label {
+        font-size: 12px !important;
+        font-weight: 500 !important;
+
+        line-height: 16px !important;
+
+        white-space: nowrap !important;
+    }
+
+    .card-list-value {
+        font-size: 12px !important;
+        font-weight: 400 !important;
+
+        line-height: 16px !important;
+
+        white-space: nowrap !important;
+    }
+
+    /* View Details */
+    .card-list-action {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+
+        height: 100% !important;
+    }
+
+    .card-list-action button {
+        font-size: 10px !important;
+        font-weight: 500 !important;
+
+        line-height: 14px !important;
+
+        padding: 0 !important;
+        margin: 0 !important;
+
+        white-space: nowrap !important;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .card-list {
+        width: 487px !important;
+        max-width: 487px !important;
+        min-width: 487px !important;
+    }
+
+    .card-list-item {
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+
+        height: 75px !important;
+
+        padding: 10px !important;
+        margin-left: 0 !important;
+
+        border-radius: 16px !important;
+
+        box-sizing: border-box !important;
+    }
+
+    .card-list-row {
+        display: grid !important;
+
+        grid-template-columns:
+            42px 58px 62px 92px 72px minmax(0, 1fr) !important;
+
+        gap: 7px !important;
+
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+
+        height: 100% !important;
+
+        align-items: center !important;
+    }
+
+    /* Center every grid item vertically */
+    .card-list-row>* {
+        grid-column: auto !important;
+
+        min-width: 0 !important;
+        max-width: 100% !important;
+
+        align-self: center !important;
+    }
+
+    /* Icon */
+    .card-list-icon-column {
+        width: 42px !important;
+        min-width: 42px !important;
+
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .card-list-icon {
+        width: 42px !important;
+        height: 42px !important;
+
+        min-width: 42px !important;
+
+        border-radius: 12px !important;
+
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .card-list-icon-image {
+        width: 20px !important;
+        height: 20px !important;
+    }
+
+    /* Content columns */
+    .card-list-type,
+    .card-list-bank,
+    .card-list-number,
+    .card-list-holder {
+        width: 100% !important;
+
+        min-width: 0 !important;
+        max-width: 100% !important;
+
+        text-align: left !important;
+
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+    }
+
+    /* Label */
+    .card-list-label {
+        font-size: 12px !important;
+        font-weight: 500 !important;
+
+        line-height: 14px !important;
+
+        margin-bottom: 5px !important;
+
+        white-space: nowrap !important;
+
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+    }
+
+    /* Value */
+    .card-list-value {
+        font-size: 12px !important;
+        font-weight: 400 !important;
+
+        line-height: 14px !important;
+
+        white-space: nowrap !important;
+
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+    }
+
+    /* View Details */
+    .card-list-action {
+        display: flex !important;
+
+        align-items: center !important;
+        justify-content: center !important;
+
+        height: 100% !important;
+
+        overflow: hidden !important;
+    }
+
+    .card-list-action button {
+        font-size: 12px !important;
+        font-weight: 500 !important;
+
+        line-height: 14px !important;
+
+        padding: 0 !important;
+        margin: 0 !important;
+
+        white-space: nowrap !important;
+
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+    }
+}

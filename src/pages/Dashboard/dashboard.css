@@ -1,0 +1,227 @@
+/* =========================================
+   MOBILE BANK CARDS
+   375px - 667px
+========================================= */
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+    .dashboard-section-title{
+        font-size: 16px !important;
+        font-weight: 600;
+    }
+    .see-all-text{
+          font-size: 14px !important;
+        font-weight: 600;
+    }
+
+  .dashboard-bank-cards {
+    display: flex !important;
+
+    width: 100%;
+
+    gap: 16px !important;
+
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    flex-wrap: nowrap;
+
+    scrollbar-width: none;
+  }
+
+  .dashboard-bank-cards::-webkit-scrollbar {
+    display: none;
+  }
+
+
+  /* Card wrapper */
+
+  .dashboard-bank-card-wrapper,
+  .bank-card-one-main-layer {
+    flex: 0 0 265px !important;
+
+    width: 265px !important;
+    min-width: 265px !important;
+    max-width: 265px !important;
+
+    height: 170px !important;
+  }
+
+
+  /* Actual card */
+
+  .dashboard-bank-card-wrapper > *,
+  .bank-card-one-main-layer > * {
+    width: 265px !important;
+    height: 170px !important;
+
+    min-width: 265px !important;
+    max-width: 265px !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* =========================================
+   TABLET: 768px - 899px
+   ========================================= */
+
+@media (min-width: 768px) and (max-width: 899px) {
+  .dashboard {
+    width: 100%;
+  }
+
+  /* Top cards */
+  .dashboard-top-row {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 14px !important;
+  }
+
+  /* First two bank cards */
+  .dashboard-top-card {
+    min-width: 0;
+  }
+
+  /* Transaction goes full width */
+  .dashboard-top-card:nth-child(3) {
+    grid-column: 1 / -1;
+  }
+
+  /* Middle section */
+  .dashboard-middle-row {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr) !important;
+    gap: 14px !important;
+  }
+
+  /* Bottom section */
+  .dashboard-bottom-row {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.7fr) !important;
+    gap: 14px !important;
+  }
+
+  /* Bank cards */
+  .dashboard-top-card .bank-card,
+  .dashboard-top-card .bank-card-one {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* Prevent transaction overflow */
+  .transaction-card-container {
+    width: 100%;
+    min-width: 0;
+  }
+}
+
+
+/* =========================================
+   TABLET: 900px - 1024px
+   ========================================= */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+      main.flex-1.min-w-0.overflow-y-auto {
+    overflow-x: hidden !important;
+  }
+
+  .dashboard {
+    overflow-x: visible !important;
+    max-width: 100% !important;
+  }
+
+  .dashboard-section-title-history {
+    margin-left: 50px !important;
+  }
+
+  .dashboard-top-row {
+    display: grid !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    gap: 14px !important;
+  }
+  .sidebar{
+    width: 90px !important;
+  }
+
+  .dashboard-top-card {
+    min-width: 0;
+  }
+
+  .dashboard-middle-row {
+    display: grid !important;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr) !important;
+    gap: 14px !important;
+  }
+
+  .dashboard-bottom-row {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 2fr) !important;
+    gap: 14px !important;
+  }
+  .dashboard-balance .dashboard-section-title-history{
+    margin-left: 90px !important;
+  }
+  .dashboard-section-title{
+    font-size: 15px !important;
+    font-weight: 600 !important;
+  }
+  .dashboard-section-title{
+    font-size: 15px !important;
+    font-weight: 600 !important;
+  }
+  .recent-transaction{
+    margin-left: 190px !important;
+    font-size: 16px !important;
+    margin-top: -5px !important;
+    white-space: nowrap;
+
+  }
+  .see-all-text{
+    margin-left: 260px !important;
+     white-space: nowrap;
+     margin-top: -10px !important;
+  }
+  .dashboard-bank-card-wrapper{
+    margin-left: -13px !important;
+  }
+  .dashboard-section-title{
+    margin-top: -10px !important;
+    white-space: nowrap;
+  }
+  .dashboard-section-title{
+    font-size: 16px !important;
+    font-size: 600 !important;
+  }
+  .dashboard-balance-card{
+     width: 310px !important;
+     height: 263px !important;
+     margin-left: 75px !important;
+  }
+
+  .bank-card-one-main-layer{
+    margin-left: 210px !important;
+  }
+  .dashboard-weekly-card{
+    width: 350px !important;
+  }
+
+}
+
+@media (min-width: 1032px) and (max-width: 1376px){
+    .dashboard-balance-card{
+        width: 453px !important;
+        margin-left: 96px !important;
+    }
+    .dashboard-section{
+        margin-left: 100px !important;
+    }
+}

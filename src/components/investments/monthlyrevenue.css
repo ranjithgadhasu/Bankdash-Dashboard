@@ -1,0 +1,198 @@
+/* =========================================
+   MOBILE MONTHLY REVENUE CHART
+   375px - 667px
+========================================= */
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+
+  /* =========================================
+     MAIN CONTAINER
+  ========================================= */
+
+  .monthly-revenue-chart {
+    width: 325px !important;
+
+    min-width: 325px !important;
+    max-width: 325px !important;
+  }
+
+
+  /* =========================================
+     TITLE
+  ========================================= */
+
+  .monthly-revenue-title {
+    margin-bottom: 10px !important;
+
+    font-size: 16px !important;
+    line-height: 20px !important;
+
+    font-weight: 600 !important;
+
+    color: #1B2559 !important;
+  }
+
+
+  /* =========================================
+     CARD
+  ========================================= */
+
+  .monthly-revenue-card {
+    width: 325px !important;
+    height: 225px !important;
+
+    min-width: 325px !important;
+    max-width: 325px !important;
+
+    padding: 10px 12px !important;
+
+    background: #ffffff !important;
+
+    border: none !important;
+
+    border-radius: 14px !important;
+
+    box-shadow: none !important;
+
+    overflow: hidden !important;
+  }
+
+
+  /* =========================================
+     CHART CONTAINER
+  ========================================= */
+
+  .monthly-revenue-container {
+    width: 100% !important;
+
+    height: 205px !important;
+  }
+
+
+  /* =========================================
+     RECHARTS CONTAINER
+  ========================================= */
+
+  .monthly-revenue-responsive {
+    width: 100% !important;
+
+    height: 100% !important;
+  }
+
+
+  /* =========================================
+     X AXIS
+  ========================================= */
+
+  .monthly-revenue-x-axis
+  .recharts-cartesian-axis-tick-value {
+    fill: #718EBF !important;
+
+    font-size: 11px !important;
+
+    font-weight: 400 !important;
+  }
+
+
+  /* =========================================
+     Y AXIS
+  ========================================= */
+
+  .monthly-revenue-y-axis
+  .recharts-cartesian-axis-tick-value {
+    fill: #718EBF !important;
+
+    font-size: 10px !important;
+
+    font-weight: 400 !important;
+  }
+
+
+  /* =========================================
+     GRID
+  ========================================= */
+
+  .monthly-revenue-grid line {
+    stroke: #DCE7F4 !important;
+
+    stroke-dasharray: 4 5;
+  }
+
+
+  /* =========================================
+     REVENUE LINE
+  ========================================= */
+
+  .monthly-revenue-area {
+    stroke: #14B8A6 !important;
+
+    stroke-width: 2.5px !important;
+  }
+
+
+  /* =========================================
+     AREA FILL
+  ========================================= */
+
+  .monthly-revenue-area path.recharts-area-area {
+    fill: transparent !important;
+  }
+
+
+  /* =========================================
+     ACTIVE DOT
+  ========================================= */
+
+  .monthly-revenue-area
+  .recharts-dot {
+    r: 3px;
+  }
+
+
+  /* =========================================
+     TOOLTIP
+  ========================================= */
+
+  .monthly-revenue-tooltip {
+    outline: none !important;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .monthly-revenue-chart {
+    width: 359px !important;
+  }
+
+  .monthly-revenue-title {
+    font-size: 18px !important;
+    font-weight: 600;
+    margin-bottom: 12px !important;
+    margin-left: 20px !important;
+  }
+
+  .monthly-revenue-card {
+    width: 300px !important;
+    padding: 14px !important;
+    border-radius: 20px !important;
+    margin-left: 10px !important;
+  }
+
+  .monthly-revenue-container {
+    width: 100% !important;
+    height: 210px !important;
+  }
+
+  .monthly-revenue-responsive {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .monthly-revenue-x-axis text,
+  .monthly-revenue-y-axis text {
+    font-size: 12px !important;
+    font-weight: 400;
+  }
+
+}

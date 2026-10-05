@@ -1,0 +1,328 @@
+@media screen and (min-width: 375px) and (max-width: 667px) {
+
+  /* =========================================
+     MAIN CONTAINER
+  ========================================= */
+
+  .active-loans {
+    width: 325px !important;
+    min-width: 325px !important;
+    max-width: 325px !important;
+
+    box-sizing: border-box !important;
+  }
+
+
+  /* =========================================
+     TITLE
+  ========================================= */
+
+  .active-loans-title {
+    margin: 0 0 10px !important;
+
+    font-size: 16px !important;
+    line-height: 20px !important;
+
+    font-weight: 600 !important;
+
+    color: #1b2559 !important;
+  }
+
+
+  /* =========================================
+     MAIN MOBILE CARD
+  ========================================= */
+
+  .active-loans-mobile {
+    width: 325px !important;
+    min-width: 325px !important;
+    max-width: 325px !important;
+
+    margin: 0 !important;
+    padding: 10px 20px 0 !important;
+
+    background: #ffffff !important;
+
+    border: none !important;
+    border-radius: 18px !important;
+
+    box-shadow: none !important;
+
+    overflow: hidden !important;
+
+    box-sizing: border-box !important;
+  }
+
+
+  /* =========================================
+     HEADER
+  ========================================= */
+
+  .active-loans-mobile-header {
+    width: 100% !important;
+    height: 27px !important;
+
+    display: grid !important;
+
+    /*
+      2 equal content columns
+      + fixed button column
+    */
+    grid-template-columns: minmax(0, 1fr)
+                           minmax(0, 1fr)
+                           72px !important;
+
+    column-gap: 12px !important;
+
+    align-items: center !important;
+
+    padding: 0 !important;
+    margin: 0 !important;
+
+    box-sizing: border-box !important;
+
+    border-bottom: 1px solid #e8edf3 !important;
+  }
+
+
+  /* Header text */
+
+  .active-loans-mobile-header-loan,
+  .active-loans-mobile-header-repay,
+  .active-loans-mobile-header-action {
+    display: block !important;
+
+    font-size: 12px !important;
+    line-height: 16px !important;
+
+    font-weight: 500 !important;
+
+    color: #718ebf !important;
+
+    white-space: nowrap !important;
+  }
+
+
+  .active-loans-mobile-header-loan {
+    grid-column: 1 !important;
+    text-align: left !important;
+  }
+
+
+  .active-loans-mobile-header-repay {
+    grid-column: 2 !important;
+    text-align: left !important;
+  }
+
+
+  .active-loans-mobile-header-action {
+    grid-column: 3 !important;
+    text-align: center !important;
+  }
+
+
+  /* =========================================
+     LOAN ROW CONTAINER
+  ========================================= */
+
+  .active-loans-mobile-rows {
+    width: 100% !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+
+  /* =========================================
+     EACH LOAN ROW
+  ========================================= */
+
+  .active-loans-mobile-row {
+    width: 100% !important;
+    height: 47px !important;
+
+    display: grid !important;
+
+    grid-template-columns: minmax(0, 1fr)
+                           minmax(0, 1fr)
+                           72px !important;
+
+    column-gap: 12px !important;
+
+    align-items: center !important;
+
+    padding: 0 !important;
+    margin: 0 !important;
+
+    box-sizing: border-box !important;
+
+    border-bottom: 1px solid #e8edf3 !important;
+  }
+
+
+  /* =========================================
+     AMOUNT TEXT
+  ========================================= */
+
+  .active-loans-mobile-value {
+    margin: 0 !important;
+    padding: 0 !important;
+
+    font-size: 12px !important;
+    line-height: 16px !important;
+
+    font-weight: 400 !important;
+
+    color: #1f2937 !important;
+
+    white-space: nowrap !important;
+
+    overflow: hidden !important;
+  }
+
+
+  /* First amount */
+
+  .active-loans-mobile-row
+  .active-loans-mobile-value:first-child {
+    grid-column: 1 !important;
+    text-align: left !important;
+  }
+
+
+  /* Second amount */
+
+  .active-loans-mobile-row
+  .active-loans-mobile-value:nth-child(2) {
+    grid-column: 2 !important;
+    text-align: left !important;
+  }
+
+
+  /* =========================================
+     REPAY BUTTON
+  ========================================= */
+
+  .active-loans-mobile-repay-button {
+    grid-column: 3 !important;
+
+    justify-self: end !important;
+
+    width: 72px !important;
+    min-width: 72px !important;
+    max-width: 72px !important;
+
+    height: 26px !important;
+    min-height: 26px !important;
+    max-height: 26px !important;
+
+    padding: 0 !important;
+    margin: 0 !important;
+
+    border: 1px solid #1f1df5 !important;
+
+    border-radius: 15px !important;
+
+    background: #ffffff !important;
+
+    color: #1f1df5 !important;
+
+    font-size: 12px !important;
+    line-height: 24px !important;
+
+    font-weight: 500 !important;
+
+    display: flex !important;
+
+    align-items: center !important;
+    justify-content: center !important;
+
+    box-sizing: border-box !important;
+
+    cursor: pointer !important;
+  }
+
+
+  /* =========================================
+     TOTAL SECTION
+  ========================================= */
+
+  .active-loans-mobile-total {
+    width: 100% !important;
+
+    height: 58px !important;
+
+    display: grid !important;
+
+    grid-template-columns: minmax(0, 1fr)
+                           minmax(0, 1fr) !important;
+
+    column-gap: 12px !important;
+
+    align-items: start !important;
+
+    padding: 8px 0 0 !important;
+    margin: 0 !important;
+
+    background: #ffffff !important;
+
+    box-sizing: border-box !important;
+  }
+
+
+  /* =========================================
+     TOTAL ITEMS
+  ========================================= */
+
+  .active-loans-mobile-total {
+  width: 100% !important;
+
+  display: grid !important;
+
+  grid-template-columns: 105px 105px !important;
+
+  column-gap: 10px !important;
+
+  padding: 8px 0 0 !important;
+  margin: 0 !important;
+}
+
+
+  /* =========================================
+     TOTAL LABEL
+  ========================================= */
+
+  .active-loans-mobile-total-label {
+    margin: 0 !important;
+    padding: 0 !important;
+
+    font-size: 12px !important;
+    line-height: 16px !important;
+
+    font-weight: 400 !important;
+
+    color: #ff4b5c !important;
+
+    white-space: nowrap !important;
+  }
+
+
+  /* =========================================
+     TOTAL VALUE
+  ========================================= */
+
+  .active-loans-mobile-total-value {
+    margin: 1px 0 0 !important;
+    padding: 0 !important;
+
+    font-size: 12px !important;
+    line-height: 16px !important;
+
+    font-weight: 500 !important;
+
+    color: #ff4b5c !important;
+
+    white-space: nowrap !important;
+  }
+
+}

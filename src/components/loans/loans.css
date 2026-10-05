@@ -1,0 +1,416 @@
+/* =========================================
+   MOBILE LOAN STATS
+   375px - 667px
+========================================= */
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+
+  /* Main container */
+  .loan-stats-grid {
+    width: 100% !important;
+
+    display: flex !important;
+    flex-direction: row !important;
+
+    gap: 16px !important;
+
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+
+    padding: 0 !important;
+
+    scrollbar-width: none !important;
+
+    /* Keep all cards in one row */
+    flex-wrap: nowrap !important;
+  }
+
+  .loan-stats-grid::-webkit-scrollbar {
+    display: none !important;
+  }
+
+
+  /* =========================================
+     LOAN CARD
+  ========================================= */
+
+  .loan-stats-grid > div {
+    width: 230px !important;
+    height: 85px !important;
+
+    min-width: 230px !important;
+    max-width: 230px !important;
+
+    flex: 0 0 230px !important;
+
+    padding: 10px 16px !important;
+
+    display: flex !important;
+    align-items: center !important;
+
+    gap: 12px !important;
+
+    background: #ffffff !important;
+
+    border: none !important;
+    border-radius: 18px !important;
+
+    box-shadow: none !important;
+
+    box-sizing: border-box !important;
+  }
+
+
+  /* =========================================
+     ICON BACKGROUND
+  ========================================= */
+
+  .image-width-icon {
+    width: 45px !important;
+    height: 45px !important;
+
+    min-width: 45px !important;
+    min-height: 45px !important;
+
+    max-width: 45px !important;
+    max-height: 45px !important;
+
+    border-radius: 50% !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    flex-shrink: 0 !important;
+  }
+
+
+  /* =========================================
+     ICON IMAGE
+  ========================================= */
+
+  .image-width-icon img {
+    width: 20px !important;
+    height: 20px !important;
+
+    min-width: 20px !important;
+    min-height: 20px !important;
+
+    object-fit: contain !important;
+  }
+
+
+  /* =========================================
+     CONTENT
+  ========================================= */
+
+  .loan-stats-grid > div > div:last-child {
+    min-width: 0 !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+
+    justify-content: center !important;
+  }
+
+
+  /* =========================================
+     TITLE
+  ========================================= */
+
+  .loans-title {
+    margin: 0 !important;
+
+    font-size: 12px !important;
+    line-height: 16px !important;
+
+    font-weight: 400 !important;
+
+    color: #718EBF !important;
+
+    white-space: nowrap !important;
+  }
+
+
+  /* =========================================
+     AMOUNT
+  ========================================= */
+
+  .loans-amount {
+    margin: 1px 0 0 !important;
+
+    font-size: 16px !important;
+    line-height: 20px !important;
+
+    font-weight: 600 !important;
+
+    color: #1F2937 !important;
+
+    white-space: nowrap !important;
+  }
+
+  
+}
+@media (min-width: 1032px) and (max-width: 1376px) {
+
+  .loan-stats-grid {
+    display: grid !important;
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+    gap: 16px !important;
+    width: 100%;
+  }
+
+  .loan-stats-grid > div {
+    min-width: 0;
+    width: 100%;
+  }
+  .image-width-icon{
+    width: 45px !important;
+  }
+  .loans-title{
+    font-size: 12px !important;
+    font-weight: 400px !important;
+  }
+  .loans-amount{
+    font-size: 16px !important;
+    font-weight: 600px !important;
+
+  }
+
+  .active-loans-thead .active-loans-th{
+    font-size: 12px !important;
+    font-weight: 500px !important;
+  }
+
+  .active-loans-cell{
+    font-size: 12px !important;
+    font-weight: 400px !important;
+    
+  }  
+ 
+}
+
+
+.active-loans-table {
+  min-width: 0 !important;
+  width: 100% !important;
+  table-layout: fixed !important;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .loan-stats-grid {
+    display: grid !important;
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+    gap: 12px !important;
+
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  .loan-stats-grid > div {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+
+    padding: 12px !important;
+    gap: 8px !important;
+    border-radius: 18px !important;
+
+    box-sizing: border-box !important;
+  }
+
+  .image-width-icon {
+    width: 45px !important;
+    height: 45px !important;
+    min-width: 45px !important;
+    margin-left: -8px;
+  }
+
+  .image-width-icon img {
+    width: 20px !important;
+    height: 20px !important;
+  }
+
+  .loan-stats-grid > div > div:last-child {
+    min-width: 0 !important;
+    width: calc(100% - 46px) !important;
+  }
+
+  .loans-title {
+    font-size: 11px !important;
+    line-height: 13px !important;
+     font-weight: 400;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+
+  .loans-amount {
+    font-size: 11px !important;
+    line-height: 17px !important;
+    margin-top: 2px !important;
+   font-weight: 600;
+    white-space: nowrap !important;
+  }
+
+ .active-loans {
+    width: 645px !important;
+    min-width: 645px !important;
+    max-width: 645px !important;
+    margin-left: -10px !important;
+
+    grid-column: 1 / -1 !important;
+    flex: 0 0 645px !important;
+  }
+
+  .active-loans-title {
+    font-size: 18px !important;
+    width: 300px !important;
+    line-height: 22px !important;
+    margin-bottom: 10px !important;
+  }
+
+  /* Main box */
+  .active-loans-table-wrapper {
+    width: 620px !important;
+    min-width: 620px !important;
+    max-width: 620px !important;
+   padding: 13px;
+    height: 450px !important;
+    min-height: 450px !important;
+    max-height: 450px !important;
+
+    border-radius: 20px !important;
+    box-sizing: border-box !important;
+
+    overflow: hidden !important;
+  }
+
+  .active-loans-table-scroll {
+    width: 100% !important;
+    height: 100% !important;
+    overflow: hidden !important;
+  }
+
+  /* Table must match box */
+  .active-loans-table {
+    width: 645px !important;
+    min-width: 645px !important;
+    max-width: 645px !important;
+    table-layout: fixed !important;
+    border-collapse: collapse !important;
+  }
+
+  /* Header */
+  .active-loans-header-row {
+    height: 42px !important;
+    font-size: 10px !important;
+  }
+  .active-loans-th {
+    padding: 10px 6px !important;
+
+    font-size: 12px !important;
+    font-weight: 500 !important;
+
+    white-space: nowrap !important;
+  }
+  /* TIGHT COLUMN WIDTHS */
+  .active-loans-th-sl,
+  .active-loans-cell-sl {
+    width: 40px !important;
+  }
+
+  .active-loans-th-loan,
+  .active-loans-cell-loan {
+    width: 90px !important;
+  }
+
+  .active-loans-th-repay-left,
+  .active-loans-cell-repay-left {
+    width: 95px !important;
+  }
+
+  .active-loans-th-duration,
+  .active-loans-cell-duration {
+    width: 80px !important;
+  }
+
+  .active-loans-th-interest,
+  .active-loans-cell-interest {
+    width: 75px !important;
+  }
+
+  .active-loans-th-installment,
+  .active-loans-cell-installment {
+    width: 140px !important;
+  }
+
+  .active-loans-th-action,
+  .active-loans-cell-action {
+    width: 125px !important;
+  }
+
+  /* Rows */
+  .active-loans-row {
+    height: 39px !important;
+  }
+
+  .active-loans-cell {
+    padding: 8px 6px !important;
+
+    font-size: 12px !important;
+    line-height: 13px !important;
+
+    white-space: nowrap !important;
+
+    /* Show complete text */
+    overflow: visible !important;
+    text-overflow: clip !important;
+  }
+
+  /* Repay */
+  .active-loans-cell-action {
+    text-align: left !important;
+    white-space: nowrap !important;
+  }
+
+  .active-loans-repay-button {
+    width: 65px !important;
+    height: 25px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    border-radius: 14px !important;
+
+    font-size: 9px !important;
+    line-height: 25px !important;
+
+    white-space: nowrap !important;
+  }
+
+  /* Total */
+  .active-loans-total-row {
+    height: 40px !important;
+  }
+
+  .active-loans-total-cell {
+    padding: 9px 6px !important;
+
+    font-size: 12px !important;
+    line-height: 13px !important;
+
+    white-space: nowrap !important;
+    overflow: visible !important;
+    text-overflow: clip !important;
+  }
+
+  .active-loans-total-installment {
+    white-space: nowrap !important;
+  }
+}

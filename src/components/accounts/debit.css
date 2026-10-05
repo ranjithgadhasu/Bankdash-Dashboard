@@ -1,0 +1,281 @@
+/* =========================================
+   MOBILE DEBIT & CREDIT CHART
+   375px - 667px
+========================================= */
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+
+  /* =========================================
+     MAIN CONTAINER
+  ========================================= */
+
+  .debit-credit-chart {
+    width: 325px !important;
+    min-width: 325px !important;
+    max-width: 325px !important;
+  }
+
+
+  /* =========================================
+     HEADING
+  ========================================= */
+
+  .debit-credit-chart-title {
+    font-size: 16px !important;
+    line-height: 20px !important;
+
+    font-weight: 600 !important;
+
+    margin-bottom: 10px !important;
+
+    color: #1B2559 !important;
+  }
+
+
+  /* =========================================
+     CARD
+  ========================================= */
+
+  .debit-credit-chart-card {
+    width: 325px !important;
+    height: 245px !important;
+
+    min-width: 325px !important;
+    max-width: 325px !important;
+
+    padding: 14px 12px !important;
+
+    background: #ffffff !important;
+
+    border: none !important;
+
+    border-radius: 16px !important;
+
+    box-shadow: none !important;
+  }
+
+
+  /* =========================================
+     TOP INFO
+  ========================================= */
+
+  .debit-credit-chart-info {
+    width: 100% !important;
+
+    display: flex !important;
+
+    align-items: center !important;
+
+    justify-content: flex-end !important;
+
+    margin-bottom: 5px !important;
+
+    gap: 10px !important;
+  }
+
+
+  /* Hide description on mobile */
+  .debit-credit-chart-description {
+    display: none !important;
+  }
+
+
+  /* =========================================
+     LEGEND
+  ========================================= */
+
+  .debit-credit-chart-legend {
+    display: flex !important;
+
+    align-items: center !important;
+
+    justify-content: flex-end !important;
+
+    gap: 12px !important;
+
+    width: 100% !important;
+  }
+
+
+  .debit-credit-chart-legend-item {
+    display: flex !important;
+
+    align-items: center !important;
+
+    gap: 5px !important;
+  }
+
+
+  /* Legend dots */
+  .debit-credit-chart-legend-dot {
+    width: 10px !important;
+    height: 10px !important;
+
+    min-width: 10px !important;
+    min-height: 10px !important;
+
+    border-radius: 3px !important;
+  }
+
+
+  /* Legend text */
+  .debit-credit-chart-legend-text {
+    font-size: 12px !important;
+
+    line-height: 16px !important;
+
+    font-weight: 400 !important;
+
+    color: #718EBF !important;
+  }
+
+
+  /* =========================================
+     CHART CONTAINER
+  ========================================= */
+
+  .debit-credit-chart-container {
+    width: 100% !important;
+
+    height: 195px !important;
+  }
+
+
+  /* =========================================
+     RECHARTS
+  ========================================= */
+
+  .debit-credit-chart-container
+  .recharts-responsive-container {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+
+  /* X Axis */
+  .debit-credit-chart-container
+  .recharts-xAxis
+  .recharts-cartesian-axis-tick-value {
+    fill: #718EBF !important;
+
+    font-size: 12px !important;
+
+    font-weight: 400 !important;
+  }
+
+
+  /* =========================================
+     BARS
+  ========================================= */
+
+  .debit-credit-chart-container
+  .recharts-bar-rectangle {
+    rx: 5px;
+    ry: 5px;
+  }
+
+
+  /* Debit bar */
+  .debit-credit-chart-container
+  .recharts-bar:nth-of-type(1) {
+    width: 10px !important;
+  }
+
+
+  /* Credit bar */
+  .debit-credit-chart-container
+  .recharts-bar:nth-of-type(2) {
+    width: 10px !important;
+  }
+}
+
+
+@media (min-width: 1032px) and (max-width: 1376px) {
+
+  .debit-credit-chart {
+    width: 100% !important;
+    min-width: 0;
+  }
+
+  .debit-credit-chart-card {
+    width: 100%;
+    min-width: 0;
+    padding: 18px !important;
+  }
+
+  .debit-credit-chart-info {
+    gap: 10px !important;
+    margin-bottom: 16px !important;
+  }
+
+  .debit-credit-chart-description {
+    font-size: 13px !important;
+    white-space: nowrap;
+  }
+
+  .debit-credit-chart-legend {
+    gap: 12px !important;
+  }
+
+  .debit-credit-chart-legend-text {
+    font-size: 12px !important;
+  }
+
+  .debit-credit-chart-legend-dot {
+    width: 10px !important;
+    height: 10px !important;
+  }
+
+  .debit-credit-chart-container {
+    height: 240px !important;
+    width: 100%;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .debit-credit-chart {
+    width: 431px !important;
+    margin-left: -15px;
+  }
+  .debit-credit-chart-title {
+    font-size: 18px !important;
+    margin-bottom: 12px !important;
+  }
+ .debit-credit-chart-card {
+    width: 400px !important;
+    padding: 16px !important;
+    border-radius: 20px !important;
+  }
+
+  .debit-credit-chart-info {
+    gap: 10px !important;
+    margin-bottom: 14px !important;
+  }
+
+  .debit-credit-chart-description {
+    font-size: 12px !important;
+  }
+
+  .debit-credit-chart-legend {
+    gap: 12px !important;
+  }
+
+  .debit-credit-chart-legend-text {
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    white-space: nowrap;
+  }
+
+  .debit-credit-chart-legend-dot {
+    width: 9px !important;
+    height: 9px !important;
+  }
+
+  .debit-credit-chart-container {
+    height: 200px !important;
+    width: 100% !important;
+  }
+
+}

@@ -1,0 +1,208 @@
+/* =========================================
+   MOBILE TRANSACTION CARDS
+   375px - 667px
+========================================= */
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+
+  /* Main section */
+  .transactions-cards-section {
+    width: 100% !important;
+    min-width: 0;
+  }
+
+
+  /* =========================================
+     HEADER
+  ========================================= */
+
+  .transactions-cards-header {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 14px !important;
+  }
+
+
+  /* My Cards */
+  .my-cards {
+    font-size: 16px !important;
+    line-height: 20px !important;
+
+    font-weight: 600 !important;
+
+    color: #1B2559 !important;
+  }
+
+
+  /* Add Card */
+  .add-card {
+    font-size: 13px !important;
+    line-height: 18px !important;
+
+    font-weight: 600 !important;
+
+    color: #1B2559 !important;
+
+    white-space: nowrap;
+  }
+
+
+  /* =========================================
+     CARDS CONTAINER
+  ========================================= */
+
+  .transactions-bank-cards {
+    display: flex !important;
+
+    width: 100% !important;
+
+    gap: 16px !important;
+
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    flex-wrap: nowrap;
+
+    scrollbar-width: none;
+
+    padding: 0 !important;
+
+    margin: 0 !important;
+  }
+
+
+  /* Hide scrollbar Chrome */
+  .transactions-bank-cards::-webkit-scrollbar {
+    display: none;
+  }
+
+
+  /* =========================================
+     FIRST CARD WRAPPER
+  ========================================= */
+
+  .bank-card-transwith {
+    flex: 0 0 265px !important;
+
+    width: 265px !important;
+    min-width: 265px !important;
+    max-width: 265px !important;
+
+    height: 170px !important;
+  }
+
+
+  /* =========================================
+     SECOND CARD
+  ========================================= */
+
+  .transactions-bank-cards > .bank-card-one {
+    flex: 0 0 265px !important;
+
+    width: 265px !important;
+    min-width: 265px !important;
+    max-width: 265px !important;
+
+    height: 170px !important;
+  }
+
+
+  /* Make actual first card 265 x 170 */
+  .bank-card-transwith .bank-card {
+    width: 265px !important;
+    min-width: 265px !important;
+    max-width: 265px !important;
+
+    height: 170px !important;
+  }
+
+
+  /* Make actual second card 265 x 170 */
+  .transactions-bank-cards
+  .bank-card-one {
+    width: 265px !important;
+    min-width: 265px !important;
+    max-width: 265px !important;
+
+    height: 170px !important;
+  }
+  .transactions-expense-text {
+    font-size: 16px !important;
+    font-weight: 600;
+  }
+  .transactions-list-section h2{
+     font-size: 16px !important;
+    font-weight: 600;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 1032px) and (max-width: 1376px) {
+
+  .transactions-top-section {
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+  }
+
+  .transactions-cards-section {
+    min-width: 0;
+  }
+
+  .transactions-bank-cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+  }
+
+  .transactions-bank-cards > * {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .transactions-expense-section {
+    min-width: 0;
+  }
+
+  .transactions-list-section {
+    width: 100%;
+    min-width: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .bank-card-transwith{
+        margin-left: -13px;
+    }
+
+    .my-cards{
+        font-size: 18px !important;
+        font-weight: 600 !important;
+    }
+     .add-card{
+        margin-right: 230px;
+        font-weight: 600 !important;
+        font-size: 15px !important;
+     }
+     .transactions-expense-text{
+         font-size: 18px !important;
+        font-weight: 600 !important;
+     }
+     .transactions-list-section h2{
+         font-size: 18px !important;
+        font-weight: 600 !important;
+     }
+     .bank-card-one{
+        margin-left: -125px !important;
+     }
+}

@@ -1,0 +1,236 @@
+/* =========================================
+   MOBILE SERVICES
+   375px - 667px
+========================================= */
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+
+  /* =========================================
+     MAIN CONTAINER
+  ========================================= */
+
+  .service-stats-grid {
+    width: 100% !important;
+
+    display: grid !important;
+
+    grid-template-columns: 230px 230px 230px !important;
+
+    gap: 16px !important;
+
+    overflow-x: auto !important;
+
+    padding: 0 !important;
+
+    scrollbar-width: none !important;
+
+    box-sizing: border-box !important;
+  }
+
+  .service-stats-grid::-webkit-scrollbar {
+    display: none !important;
+  }
+
+
+  /* =========================================
+     SERVICE CARD
+  ========================================= */
+
+  .service-stats-card {
+    width: 230px !important;
+    min-width: 230px !important;
+    max-width: 230px !important;
+
+    height: 85px !important;
+    min-height: 85px !important;
+    max-height: 85px !important;
+
+    padding: 10px 16px !important;
+
+    display: flex !important;
+
+    align-items: center !important;
+
+    gap: 12px !important;
+
+    background: #ffffff !important;
+
+    border: none !important;
+
+    border-radius: 18px !important;
+
+    box-shadow: none !important;
+
+    box-sizing: border-box !important;
+  }
+
+
+  /* =========================================
+     ICON BACKGROUND
+  ========================================= */
+
+  .service-stats-icon {
+    width: 45px !important;
+    height: 45px !important;
+
+    min-width: 45px !important;
+    min-height: 45px !important;
+
+    max-width: 45px !important;
+    max-height: 45px !important;
+
+    border-radius: 50% !important;
+
+    display: flex !important;
+
+    align-items: center !important;
+    justify-content: center !important;
+
+    flex-shrink: 0 !important;
+  }
+
+
+  /* =========================================
+     ICON IMAGE
+  ========================================= */
+
+  .service-stats-icon-image {
+    width: 20px !important;
+    height: 20px !important;
+
+    min-width: 20px !important;
+    min-height: 20px !important;
+
+    max-width: 20px !important;
+    max-height: 20px !important;
+
+    object-fit: contain !important;
+  }
+
+
+  /* =========================================
+     CONTENT
+  ========================================= */
+
+  .service-stats-content {
+    min-width: 0 !important;
+
+    display: flex !important;
+
+    flex-direction: column !important;
+
+    justify-content: center !important;
+
+    overflow: hidden !important;
+  }
+
+
+  /* =========================================
+     TITLE
+  ========================================= */
+
+  .service-stats-title {
+    margin: 0 !important;
+
+    font-size: 16px !important;
+
+    line-height: 20px !important;
+
+    font-weight: 600 !important;
+
+    color: #1f2937 !important;
+
+    white-space: nowrap !important;
+
+    overflow: hidden !important;
+
+    text-overflow: ellipsis !important;
+  }
+
+
+  /* =========================================
+     DESCRIPTION
+  ========================================= */
+
+  .service-stats-description {
+    margin: 1px 0 0 !important;
+
+    font-size: 12px !important;
+
+    line-height: 16px !important;
+
+    font-weight: 400 !important;
+
+    color: #718ebf !important;
+
+    white-space: nowrap !important;
+
+    overflow: hidden !important;
+
+    text-overflow: ellipsis !important;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .service-stats-grid {
+    display: grid !important;
+    grid-template-columns: repeat(3, 201px) !important;
+    gap: 10px !important;
+   margin-left: -10px !important;
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  .service-stats-card {
+    width: 201px !important;
+    min-width: 201px !important;
+    max-width: 201px !important;
+
+    height: 76px !important;
+   
+    padding: 12px !important;
+    gap: 10px !important;
+
+    border-radius: 18px !important;
+    box-sizing: border-box !important;
+  }
+
+  .service-stats-icon {
+    width: 50px !important;
+    height: 50px !important;
+    min-width: 50px !important;
+    max-width: 50px !important;
+  }
+
+  .service-stats-icon-image {
+    width: 20px !important;
+    height: 20px !important;
+    object-fit: contain !important;
+  }
+
+  .service-stats-content {
+    min-width: 0 !important;
+    width: calc(100% - 60px) !important;
+  }
+
+  .service-stats-title {
+    font-size: 16px !important;
+    line-height: 20px !important;
+
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+
+  .service-stats-description {
+    font-size: 12px !important;
+    line-height: 16px !important;
+    margin-top: 2px !important;
+
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+}

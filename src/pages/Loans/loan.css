@@ -1,0 +1,44 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* Loans page */
+  .loans-page {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+
+    margin-right: 0 !important;
+  }
+
+  /* Main Loans content */
+  .loans-page > * {
+    max-width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  /* Loan statistics */
+  .loan-stats-grid {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  /* Active loans */
+  .active-loans {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .active-loans-table-wrapper {
+    max-width: 100% !important;
+  }
+}

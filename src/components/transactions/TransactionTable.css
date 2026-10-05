@@ -1,0 +1,464 @@
+/* =========================================
+   MOBILE TRANSACTION TABLE
+   375px - 667px
+========================================= */
+
+.transaction-mobile-date {
+  display: none;
+}
+
+.transaction-mobile-info {
+  min-width: 0;
+}
+
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+
+  /* =========================================
+     MAIN CONTAINER
+  ========================================= */
+
+  .transaction-table {
+    width: 100% !important;
+
+    padding: 0 !important;
+
+    background: transparent !important;
+
+    border: none !important;
+    border-radius: 0 !important;
+
+    box-shadow: none !important;
+
+    overflow: visible !important;
+  }
+
+
+  /* =========================================
+     TABLE
+  ========================================= */
+
+  .transaction-table-content {
+    width: 100% !important;
+
+    min-width: 0 !important;
+
+    table-layout: fixed;
+
+    border-collapse: collapse;
+  }
+
+
+  /* =========================================
+     HIDE DESKTOP HEADER
+  ========================================= */
+
+  .transaction-table-content thead {
+    display: none;
+  }
+
+
+  /* =========================================
+     ROW
+  ========================================= */
+
+  .transaction-row {
+    height: 49px;
+
+    border-bottom: 1px solid #e5edf5 !important;
+  }
+
+
+  .transaction-row:last-child {
+    border-bottom: none !important;
+  }
+
+
+  /* =========================================
+     TABLE CELLS
+  ========================================= */
+
+  .transaction-row td {
+    height: 49px;
+
+    padding: 0 !important;
+
+    vertical-align: middle;
+  }
+
+
+  /* =========================================
+     DESCRIPTION
+  ========================================= */
+
+  .table-description {
+    width: 100% !important;
+
+    display: table-cell;
+  }
+
+
+  .download-arrow-space {
+    display: flex !important;
+
+    align-items: center;
+
+    gap: 10px !important;
+
+    min-width: 0;
+  }
+
+
+  /* =========================================
+     ARROW CIRCLE
+  ========================================= */
+
+  .download-arrow {
+    width: 34px !important;
+    height: 34px !important;
+
+    min-width: 34px !important;
+    min-height: 34px !important;
+
+    border: 2px solid #718ebf !important;
+
+    border-radius: 50% !important;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+  }
+
+
+  .transaction-arrow {
+    width: 18px !important;
+    height: 18px !important;
+
+    color: #718ebf !important;
+  }
+
+
+  /* =========================================
+     TITLE + DATE
+  ========================================= */
+
+  .transaction-mobile-info {
+    min-width: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+  }
+
+
+  .transaction-title {
+    display: block;
+
+    max-width: 100%;
+
+    font-size: 13px !important;
+
+    line-height: 17px !important;
+
+    font-weight: 500 !important;
+
+    color: #1f2937 !important;
+
+    white-space: nowrap;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+  }
+
+
+  .transaction-mobile-date {
+    display: block;
+
+    margin-top: 1px;
+
+    font-size: 11px !important;
+
+    line-height: 15px !important;
+
+    font-weight: 400 !important;
+
+    color: #718ebf !important;
+
+    white-space: nowrap;
+  }
+
+
+  /* =========================================
+     HIDE DESKTOP COLUMNS
+  ========================================= */
+
+  .transaction-id,
+  .transaction-type,
+  .transaction-card,
+  .transaction-date,
+  .transaction-receipt {
+    display: none !important;
+  }
+
+
+  /* =========================================
+     AMOUNT
+  ========================================= */
+
+  .transaction-amount {
+    display: table-cell;
+
+    width: 70px !important;
+
+    padding-left: 5px !important;
+    
+    text-align: left;
+
+    white-space: nowrap;
+
+    font-size: 13px !important;
+
+    line-height: 16px !important;
+
+    font-weight: 500 !important;
+  }
+
+
+  /* =========================================
+     HIDE DOWNLOAD
+  ========================================= */
+
+  .download-btn {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* =========================
+     Transaction Table
+  ========================= */
+
+  .transaction-table-responsive {
+    width: 643px !important;
+    margin-left: -20px !important;
+    padding: 16px !important;
+    border-radius: 20px !important;
+    overflow-x: hidden !important;
+  }
+
+  .transaction-table-content {
+    width: 100% !important;
+    min-width: 0 !important;
+    table-layout: fixed !important;
+  }
+
+
+  /* =========================
+     Header
+  ========================= */
+
+  .table-heading {
+    font-size: 12px !important;
+    font-weight: 500 !important;
+  }
+
+  .table-heading th {
+    padding-bottom: 12px !important;
+    white-space: nowrap;
+  }
+
+
+  /* =========================
+     Column Widths
+  ========================= */
+
+  .table-description-heading,
+  .table-description {
+    width: 147px !important;
+  }
+
+  .transaction-id-heading,
+  .transaction-id {
+    width: 90px !important;
+  }
+
+  .transaction-type-heading,
+  .transaction-type {
+    width: 65px !important;
+  }
+
+  .transaction-card-heading,
+  .transaction-card {
+    width: 65px !important;
+  }
+
+  .transaction-date-heading,
+  .transaction-date {
+    width: 120px !important;
+  }
+
+  .transaction-amount-heading,
+  .transaction-amount {
+    width: 45px !important;
+  }
+
+  .transaction-receipt-heading,
+  .transaction-receipt {
+    width: 90px !important;
+  }
+
+
+  /* =========================
+     Rows
+  ========================= */
+
+  .transaction-row td {
+    padding-top: 14px !important;
+    padding-bottom: 14px !important;
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+    vertical-align: middle !important;
+  }
+
+
+  /* =========================
+     Description
+  ========================= */
+
+  .download-arrow-space {
+    gap: 8px !important;
+    min-width: 0 !important;
+  }
+
+  .download-arrow {
+    width: 24px !important;
+    min-width: 24px !important;
+    height: 24px !important;
+    margin-left: 0 !important;
+  }
+
+  .transaction-arrow {
+    width: 13px !important;
+    height: 13px !important;
+  }
+
+  .title-size,
+  .transaction-title {
+    font-size: 12px !important;
+    font-weight: 400 !important;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+
+  /* =========================
+     Transaction ID
+  ========================= */
+
+  .transtion-id,
+  .transaction-id {
+    font-size: 12px !important;
+    font-weight: 400 !important;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+
+  /* =========================
+     Type
+  ========================= */
+
+  .transtion-type,
+  .transaction-type {
+    font-size: 12px !important;
+    font-weight: 400 !important;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+
+  /* =========================
+     Card
+  ========================= */
+
+  .transtion-card,
+  .transaction-card {
+    font-size: 12px !important;
+    font-weight: 400 !important;
+
+    white-space: nowrap;
+  }
+
+
+  /* =========================
+     Date
+  ========================= */
+
+  .transtion-date,
+  .transaction-date {
+    font-size: 12px !important;
+    font-weight: 400 !important;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+
+  /* =========================
+     Amount
+  ========================= */
+
+  .transtion-amount,
+  .transaction-amount {
+    font-size: 12px !important;
+    font-weight: 500 !important;
+
+    white-space: nowrap;
+    text-align: right !important;
+  }
+
+
+  /* =========================
+     Download Button
+  ========================= */
+
+  .download-btn {
+    width: 80px !important;
+    min-width: 80px !important;
+    height: 30px !important;
+
+    padding: 0 !important;
+
+    font-size: 12px !important;
+    font-weight: 400 !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    gap: 4px !important;
+  }
+
+  .download-btn svg {
+    width: 13px !important;
+    height: 13px !important;
+  }
+
+  .download-text {
+    white-space: nowrap;
+  }
+
+}

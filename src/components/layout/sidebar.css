@@ -1,0 +1,73 @@
+/* =========================================================
+   SIDEBAR - 1024px TABLET
+   ========================================================= */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Sidebar */
+  .sidebar {
+    width: 120px !important;
+    min-width: 120px !important;
+  }
+
+  /* Logo */
+  .sidebar-logo {
+    height: 64px !important;
+    padding-left: 16px !important;
+    padding-right: 12px !important;
+  }
+
+  .sidebar-logo-icon {
+    width: 24px !important;
+    height: 24px !important;
+  }
+
+  .sidebar-logo-text {
+    font-size: 15px !important;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+
+  /* Navigation */
+  .sidebar-nav {
+    padding: 12px 8px !important;
+    gap: 2px;
+  }
+
+  /* Menu item */
+  .sidebar-link {
+    gap: 10px !important;
+    padding: 9px 10px !important;
+    min-height: 38px;
+    border-radius: 8px;
+  }
+
+  /* Menu icon */
+  .sidebar-menu-icon {
+    width: 16px !important;
+    height: 16px !important;
+  }
+
+  /* Menu text */
+  .sidebar-menu-text {
+    font-size: 11px !important;
+    line-height: 14px;
+    white-space: nowrap;
+  }
+
+  /* Active indicator */
+  .sidebar-active-indicator {
+    width: 3px !important;
+    height: 32px !important;
+  }
+}
+
+@media (min-width: 1032px) and (max-width: 1376px){
+    .sidebar {
+    width: 170px !important;
+    min-width: 170px !important;
+  }
+   .sidebar-logo-text {
+    font-size: 18px !important;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+}

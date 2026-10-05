@@ -1,0 +1,254 @@
+/* =========================================
+   MOBILE CARD SETTINGS
+   375px - 667px
+========================================= */
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+
+  /* Main card */
+  .card-settings-card {
+    width: 325px !important;
+    height: 325px !important;
+
+    min-width: 325px !important;
+    max-width: 325px !important;
+
+    padding: 14px 16px !important;
+
+    background: #ffffff !important;
+
+    border: none !important;
+    border-radius: 12px !important;
+
+    box-shadow: none !important;
+  }
+.card-settings-main-title{
+    font-size: 16px !important;
+    font-weight: 600;
+}
+
+  /* List */
+  .card-settings-list {
+    width: 100% !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    
+    gap: 10px !important;
+  }
+
+
+  /* Item */
+  .card-settings-item {
+    width: 100% !important;
+padding-bottom: 6px;
+    display: flex !important;
+    align-items: center !important;
+
+    gap: 10px !important;
+
+    margin: 0 !important;
+  }
+
+
+  /* Icon background */
+  .card-settings-icon {
+    width: 45px !important;
+    height: 45px !important;
+
+    min-width: 45px !important;
+    min-height: 45px !important;
+
+    max-width: 45px !important;
+    max-height: 45px !important;
+
+    border-radius: 12px !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    flex-shrink: 0 !important;
+  }
+
+
+  /* Icon image */
+  .card-settings-icon-image {
+    width: 20px !important;
+    height: 20px !important;
+
+    min-width: 20px !important;
+    min-height: 20px !important;
+
+    object-fit: contain !important;
+  }
+
+
+  /* Content */
+  .card-settings-content {
+    min-width: 0 !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+
+    justify-content: center !important;
+  }
+
+
+  /* Title */
+  .card-settings-title {
+    margin: 0 !important;
+
+    font-size: 14px !important;
+    line-height: 18px !important;
+
+    font-weight: 500 !important;
+
+    color: #1f2937 !important;
+
+    white-space: nowrap !important;
+  }
+
+
+  /* Description */
+  .card-settings-desc {
+    margin: 1px 0 0 !important;
+
+    font-size: 12px !important;
+    line-height: 16px !important;
+
+    font-weight: 400 !important;
+
+    color: #718ebf !important;
+
+    white-space: nowrap !important;
+  }
+}
+
+
+
+
+@media (min-width: 1032px) and (max-width: 1376px) {
+
+  .card-settings {
+    width: 231px !important;
+    max-width: 231px !important;
+    /*margin-left: 500px !important;
+    margin-top: -440px !important;*/
+  }
+
+  .card-settings-card {
+    width: 301px !important;
+    max-width: 301px !important;
+    height: 365px !important;
+    padding: 16px !important;
+    /*margin-left: 15px !important;*/
+    border-radius: 20px !important;
+    box-sizing: border-box !important;
+  }
+
+  .card-settings-list {
+    gap: 12px !important;
+    font-weight: 500;
+  }
+
+  .card-settings-item {
+    gap: 10px !important;
+    min-width: 0;
+    margin-top: 20px !important;
+  }
+
+  .card-settings-icon {
+    width: 45px !important;
+    height: 45px !important;
+    min-width: 45px !important;
+  }
+
+  .card-settings-icon-image {
+    width: 20px !important;
+    height: 20px !important;
+  }
+
+  .card-settings-content {
+    min-width: 0;
+  }
+
+  .card-settings-title {
+    font-size: 12px !important;
+    line-height: 16px !important;
+    white-space: nowrap;
+  }
+
+  .card-settings-desc {
+    font-size: 10px !important;
+    line-height: 14px !important;
+    margin-top: 2px !important;
+    white-space: nowrap;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .card-settings {
+    width: 231px !important;
+    max-width: 231px !important;
+    min-width: 231px !important;
+  }
+
+  .card-settings-card {
+    width: 231px !important;
+    max-width: 231px !important;
+    min-width: 231px !important;
+    padding: 12px !important;
+    border-radius: 20px !important;
+    box-sizing: border-box !important;
+  }
+
+  .card-settings-list {
+    width: 100% !important;
+    gap: 12px !important;
+  }
+
+  .card-settings-item {
+    width: 100% !important;
+    gap: 10px !important;
+    min-width: 0 !important;
+    margin-top: -6px;
+  }
+
+  .card-settings-icon {
+    width: 45px !important;
+    height: 45px !important;
+    min-width: 45px !important;
+    max-width: 45px !important;
+  }
+
+  .card-settings-icon-image {
+    width: 20px !important;
+    height: 20px !important;
+  }
+
+  .card-settings-content {
+    min-width: 0 !important;
+    width: calc(100% - 48px) !important;
+  }
+
+  .card-settings-title {
+    font-size: 12px !important;
+    font-weight: 500;
+    line-height: 14px !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+
+  .card-settings-desc {
+    font-size: 11px !important;
+    font-weight: 400;
+    line-height: 13px !important;
+    margin-top: 2px !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+}

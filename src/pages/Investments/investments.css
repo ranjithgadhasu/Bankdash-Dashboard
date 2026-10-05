@@ -1,0 +1,127 @@
+@media (min-width: 1032px) and (max-width: 1376px) {
+
+  /* =================================
+     MAIN PAGE
+     ================================= */
+
+  .investments-page {
+    width: 100%;
+    min-width: 0;
+  }
+
+
+  /* =================================
+     STATS
+     ================================= */
+
+  .investments-stats {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .investments-stats > * {
+    width: 100%;
+    min-width: 0;
+  }
+
+
+  /* =================================
+     CHARTS
+     50% / 50%
+     ================================= */
+
+  .investments-charts {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 20px !important;
+    width: 100%;
+    min-width: 0;
+  }
+
+  .investments-yearly-chart,
+  .investments-monthly-chart {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .investments-yearly-chart > *,
+  .investments-monthly-chart > * {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+
+  /* =================================
+     BOTTOM SECTION
+     60% / 40%
+     ================================= */
+
+  .investments-bottom {
+    grid-template-columns: minmax(0, 3fr) minmax(0, 2fr) !important;
+    gap: 20px !important;
+    width: 100%;
+    min-width: 0;
+  }
+
+  .investments-list,
+  .investments-trending-stock {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .investments-list > *,
+  .investments-trending-stock > * {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* Investments Charts */
+  .investments-charts {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) !important;
+    gap: 10px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  .investments-yearly-chart,
+  .investments-monthly-chart {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .investments-monthly-chart {
+    margin-left: 0 !important;
+  }
+
+
+  /* Investments + Trending Stock */
+  .investments-bottom {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 190px) !important;
+    gap: 16px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  .investments-list {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+  }
+
+  .investments-trending-stock {
+    width: 190px !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+  }
+}

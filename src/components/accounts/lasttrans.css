@@ -1,0 +1,318 @@
+@media screen and (min-width: 375px) and (max-width: 667px) {
+
+  .last-transaction-card {
+    width: 325px !important;
+    height: 199px !important;
+
+    min-width: 325px !important;
+    max-width: 325px !important;
+
+    padding: 14px 18px !important;
+
+    background: #ffffff !important;
+    border: none !important;
+    border-radius: 24px !important;
+    box-shadow: none !important;
+
+    overflow: hidden !important;
+  }
+
+ .last-transaction-title {
+    font-size: 16px !important;
+    font-weight: 600;
+  }
+  .last-transaction-item {
+    width: 100%;
+
+    min-height: 55px !important;
+
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+
+    gap: 8px !important;
+
+    padding: 5px 0 !important;
+    margin: 0 !important;
+
+    border-bottom: none !important;
+  }
+
+
+  .last-transaction-item:last-child {
+    border-bottom: none !important;
+  }
+
+
+  /* Left content */
+  .last-transaction-left {
+    flex: 1;
+    min-width: 0;
+
+    display: flex !important;
+    align-items: center !important;
+
+    gap: 14px !important;
+  }
+
+
+  /* Image background */
+  .last-transaction-icon {
+    width: 45px !important;
+    height: 45px !important;
+
+    min-width: 45px !important;
+    min-height: 45px !important;
+
+    border-radius: 10px !important;
+
+    flex-shrink: 0;
+  }
+
+
+  /* Image */
+  .last-transaction-icon-image {
+    width: 20px !important;
+    height: 20px !important;
+
+    object-fit: contain;
+  }
+
+
+  /* Text */
+  .last-transaction-info {
+    min-width: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+  /* Title */
+  .last-transaction-name {
+    font-size: 14px !important;
+    line-height: 18px !important;
+
+    font-weight: 500 !important;
+
+    color: #1b2559 !important;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+
+  /* Date below title */
+  .last-transaction-date {
+    margin-top: 1px !important;
+
+    font-size: 12px !important;
+    line-height: 16px !important;
+
+    font-weight: 400 !important;
+
+    color: #718ebf !important;
+
+    white-space: nowrap;
+  }
+
+
+  /* Right side */
+  .last-transaction-details {
+    flex: 0 0 auto !important;
+
+    display: flex !important;
+
+    align-items: center !important;
+    justify-content: flex-end !important;
+  }
+
+
+  /* Hide desktop information */
+  .last-transaction-type,
+  .last-transaction-card-number,
+  .last-transaction-status {
+    display: none !important;
+  }
+
+
+  /* Amount */
+  .last-transaction-amount {
+    min-width: 48px;
+
+    margin: 0 !important;
+
+    font-size: 12px !important;
+    line-height: 16px !important;
+
+    font-weight: 500 !important;
+
+    text-align: right !important;
+
+    white-space: nowrap;
+  }
+}
+
+
+
+
+
+@media (min-width: 1032px) and (max-width: 1376px) {
+
+  .last-transaction {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .last-transaction-card {
+    width: 100% !important;
+    max-width: 100%;
+    padding: 16px !important;
+  }
+
+  .last-transaction-item {
+    gap: 12px !important;
+  }
+
+  .last-transaction-left {
+    min-width: 0;
+  }
+
+  .last-transaction-icon {
+    width: 42px !important;
+    height: 42px !important;
+    min-width: 42px !important;
+  }
+
+  .last-transaction-icon-image {
+    width: 21px !important;
+    height: 21px !important;
+  }
+
+  .last-transaction-name {
+    font-size: 14px !important;
+    white-space: nowrap;
+  }
+
+  .last-transaction-date {
+    font-size: 12px !important;
+    white-space: nowrap;
+  }
+
+  .last-transaction-details {
+    gap: 12px !important;
+    font-size: 13px !important;
+    min-width: 0;
+  }
+
+  .last-transaction-type,
+  .last-transaction-card-number,
+  .last-transaction-status,
+  .last-transaction-amount {
+    white-space: nowrap;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* Main section */
+  .last-transaction {
+    width: 100% !important;
+  }
+
+  .last-transaction-title {
+    font-size: 18px !important;
+    margin-bottom: 14px !important;
+  }
+
+  /* Main card */
+  .last-transaction-card {
+    width: 100% !important;
+    max-width: 406px;
+    padding: 14px !important;
+    margin-left: -20px !important;
+    border-radius: 20px !important;
+  }
+
+  /* Transaction list */
+  .last-transaction-list {
+    width: 100% !important;
+  }
+
+  /* Each transaction */
+  .last-transaction-item {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 10px !important;
+    padding-bottom: 12px !important;
+  }
+
+  /* Left section */
+  .last-transaction-left {
+    gap: 8px !important;
+    flex: 0 0 190px !important;
+    min-width: 0 !important;
+  }
+
+  .last-transaction-icon {
+    width: 40px !important;
+    height: 40px !important;
+    min-width: 40px !important;
+  }
+
+  .last-transaction-icon-image {
+    width: 20px !important;
+    height: 20px !important;
+  }
+
+  .last-transaction-info {
+    min-width: 0 !important;
+  }
+
+  .last-transaction-name {
+    font-size: 11px !important;
+    font-weight: 500 !important;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-left: -1px;
+    text-overflow: ellipsis;
+  }
+
+  .last-transaction-date {
+    font-size: 11px !important;
+    white-space: nowrap;
+  }
+
+  /* Right section */
+  .last-transaction-details {
+    flex: 1 !important;
+    display: grid !important;
+    grid-template-columns: 0.8fr 0.9fr 0.9fr 0.7fr !important;
+    gap: 8px !important;
+    align-items: center !important;
+    min-width: 0 !important;
+    margin-left: -45px;
+    font-size: 11px !important;
+    font-weight: 400;
+  }
+
+  .last-transaction-type,
+  .last-transaction-card-number,
+  .last-transaction-status,
+  .last-transaction-amount {
+    min-width: 0 !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .last-transaction-amount {
+    text-align: right !important;
+    font-size: 12px !important;
+  }
+
+}

@@ -1,0 +1,376 @@
+/* =========================================
+   MOBILE INVESTMENT LIST
+   375px - 667px
+========================================= */
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+
+  /* =========================================
+     MAIN CONTAINER
+  ========================================= */
+
+  .investment-list {
+    width: 325px !important;
+
+    min-width: 325px !important;
+    max-width: 325px !important;
+  }
+
+
+  /* =========================================
+     TITLE
+  ========================================= */
+
+  .investment-list-title {
+    margin-bottom: 10px !important;
+
+    font-size: 16px !important;
+    line-height: 20px !important;
+
+    font-weight: 600 !important;
+
+    color: #1B2559 !important;
+  }
+
+
+  /* =========================================
+     LIST
+  ========================================= */
+
+  .investment-list-items {
+    width: 325px !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+
+    gap: 0.1px !important;
+  }
+
+
+  /* =========================================
+     CARD
+  ========================================= */
+
+  .investment-list-card {
+    width: 325px !important;
+    height: 69px !important;
+
+    min-width: 325px !important;
+    max-width: 325px !important;
+
+    padding: 8px 12px !important;
+
+    background: #ffffff !important;
+
+    border: none !important;
+
+    border-radius: 12px !important;
+
+    box-shadow: none !important;
+
+    overflow: hidden !important;
+  }
+
+
+  /* =========================================
+     ROW
+  ========================================= */
+
+  .investment-list-row {
+    width: 100% !important;
+    height: 100% !important;
+    display: flex !important;
+
+    align-items: center !important;
+
+    gap: 0 !important;
+  }
+
+
+  /* =========================================
+     COMPANY
+  ========================================= */
+
+  .investment-company {
+    width: auto !important;
+
+    min-width: 0 !important;
+
+    flex: 1 !important;
+
+    display: flex !important;
+
+    align-items: center !important;
+
+    gap: 10px !important;
+  }
+
+
+  /* =========================================
+     ICON BACKGROUND
+  ========================================= */
+
+  .investment-company-icon {
+    width: 45px !important;
+    height: 45px !important;
+
+    min-width: 45px !important;
+    min-height: 45px !important;
+
+    border-radius: 10px !important;
+
+    display: flex !important;
+
+    align-items: center !important;
+    justify-content: center !important;
+
+    flex-shrink: 0 !important;
+  }
+
+
+  /* =========================================
+     ICON IMAGE
+  ========================================= */
+
+  .investment-company-image {
+    width: 16.85px !important;
+    height: 20px !important;
+
+    object-fit: contain !important;
+  }
+
+
+  /* =========================================
+     COMPANY INFO
+  ========================================= */
+
+  .investment-company-info {
+    min-width: 0 !important;
+
+    display: flex !important;
+
+    flex-direction: column !important;
+
+    justify-content: center !important;
+  }
+
+
+  /* =========================================
+     COMPANY NAME
+  ========================================= */
+
+  .investment-company-name {
+    margin: 0 !important;
+
+    font-size: 14px !important;
+    line-height: 17px !important;
+
+    font-weight: 500 !important;
+
+    color: #1B2559 !important;
+
+    white-space: nowrap !important;
+
+    overflow: hidden !important;
+
+    text-overflow: ellipsis !important;
+  }
+
+
+  /* =========================================
+     CATEGORY
+  ========================================= */
+
+  .investment-company-category {
+    margin: 1px 0 0 !important;
+
+    font-size: 12px !important;
+    line-height: 15px !important;
+
+    font-weight: 400 !important;
+
+    color: #718EBF !important;
+
+    white-space: nowrap !important;
+
+    overflow: hidden !important;
+
+    text-overflow: ellipsis !important;
+  }
+
+
+  /* =========================================
+     INVESTMENT VALUE
+     Hide on mobile
+  ========================================= */
+
+  .investment-value {
+    display: none !important;
+  }
+
+
+  /* =========================================
+     RETURN
+  ========================================= */
+
+  .investment-return {
+    width: auto !important;
+
+    min-width: 40px !important;
+
+    flex-shrink: 0 !important;
+
+    display: flex !important;
+
+    align-items: flex-end !important;
+
+    justify-content: center !important;
+
+    text-align: right !important;
+  }
+
+
+  /* Return percentage */
+  .investment-return-value {
+    margin: 0 !important;
+
+    font-size: 12px !important;
+    line-height: 16px !important;
+
+    font-weight: 500 !important;
+
+    white-space: nowrap !important;
+  }
+
+
+  /* Hide Return Value label */
+  .investment-return-label {
+    display: none !important;
+  }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .investment-list {
+    width: 400px !important;
+  }
+
+  .investment-list-title {
+    font-size: 18px !important;
+    margin-bottom: 12px !important;
+  }
+
+  .investment-list-items {
+    width: 400px !important;
+    gap: 12px !important;
+  }
+
+  .investment-list-card {
+    width: 350px !important;
+    padding: 10px !important;
+    margin-left: -18px !important;
+    border-radius: 16px !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Keep all 3 sections in ONE row */
+  .investment-list-row {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) 90px 62px !important;
+    gap: 8px !important;
+    align-items: center !important;
+    width: 100% !important;
+  }
+
+  /* IMPORTANT:
+     Override the Tailwind md:col-span-* */
+  .investment-company,
+  .investment-value,
+  .investment-return {
+    grid-column: auto !important;
+  }
+
+  /* Company */
+  .investment-company {
+    display: flex !important;
+    align-items: center !important;
+    min-width: 0 !important;
+    width: 100% !important;
+    gap: 10px !important;
+  }
+
+  .investment-company-icon {
+    width: 45px !important;
+    height: 45px !important;
+    min-width: 45px !important;
+    border-radius: 14px !important;
+  }
+
+  .investment-company-image {
+    width: 16px !important;
+    height: 20px !important;
+  }
+
+  .investment-company-info {
+    min-width: 0 !important;
+    flex: 1 !important;
+  }
+
+  .investment-company-name {
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+
+  .investment-company-category {
+    font-size: 10px !important;
+    margin-top: 2px !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+
+  /* Investment Value */
+  .investment-value {
+    width: 90px !important;
+    min-width: 0 !important;
+  }
+
+  .investment-value-amount {
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    white-space: nowrap !important;
+  }
+
+  .investment-value-label {
+    font-size: 10px !important;
+    margin-top: 2px !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+
+  /* Return */
+  .investment-return {
+    width: 62px !important;
+    min-width: 0 !important;
+  }
+
+  .investment-return-value {
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    white-space: nowrap !important;
+  }
+
+  .investment-return-label {
+    font-size: 10px !important;
+    margin-top: 2px !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+}

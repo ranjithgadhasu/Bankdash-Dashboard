@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+.icon-default {
+  opacity: 0.7;
+  filter: grayscale(100%);
+}
+
+.icon-active {
+  opacity: 1;
+  filter: brightness(0) saturate(100%)
+    invert(48%) sepia(88%) saturate(455%)
+    hue-rotate(118deg) brightness(95%) contrast(92%);
+}

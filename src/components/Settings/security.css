@@ -1,0 +1,279 @@
+/* =========================================
+   SECURITY MOBILE
+   375px - 667px
+========================================= */
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+
+  /* =========================================
+     MAIN SECURITY CARD
+  ========================================= */
+
+  .security-page {
+    width: 325px !important;
+    min-width: 325px !important;
+    max-width: 325px !important;
+
+    height: auto !important;
+
+    margin: 0 !important;
+    padding: 18px 16px !important;
+
+    background: #ffffff !important;
+
+    border-radius: 14px !important;
+
+    box-sizing: border-box !important;
+  }
+
+
+  /* =========================================
+     SECTION TITLE
+  ========================================= */
+
+  .security-section-title {
+    margin: 0 0 8px !important;
+
+    font-size: 13px !important;
+    line-height: 17px !important;
+
+    font-weight: 500 !important;
+
+    color: #354269 !important;
+  }
+
+
+  /* =========================================
+     TWO FACTOR SECTION
+  ========================================= */
+
+  .security-two-factor {
+    width: 100% !important;
+
+    margin: 0 !important;
+  }
+
+
+  /* =========================================
+     TOGGLE ROW
+  ========================================= */
+
+  .security-toggle-row {
+    width: 100% !important;
+
+    display: flex !important;
+
+    align-items: center !important;
+
+    gap: 10px !important;
+
+    margin: 0 !important;
+  }
+
+
+  /* Toggle */
+  .security-toggle {
+    width: 32px !important;
+    min-width: 32px !important;
+    max-width: 32px !important;
+
+    height: 19px !important;
+    min-height: 19px !important;
+    max-height: 19px !important;
+
+    border-radius: 12px !important;
+
+    padding: 0 !important;
+
+    flex-shrink: 0 !important;
+  }
+
+
+  /* Toggle circle */
+  .security-toggle-circle {
+    width: 15px !important;
+    height: 15px !important;
+
+    min-width: 15px !important;
+    min-height: 15px !important;
+
+    top: 2px !important;
+
+    border-radius: 50% !important;
+  }
+
+
+  /* Checked position */
+  .security-toggle .security-toggle-circle.left-\[29px\] {
+    left: 15px !important;
+  }
+
+
+  /* Unchecked position */
+  .security-toggle .security-toggle-circle.left-\[3px\] {
+    left: 2px !important;
+  }
+
+
+  /* Toggle text */
+  .security-toggle-label {
+    max-width: 190px !important;
+
+    font-size: 11px !important;
+    line-height: 15px !important;
+
+    font-weight: 400 !important;
+
+    color: #1f2937 !important;
+  }
+
+
+  /* =========================================
+     PASSWORD SECTION
+  ========================================= */
+
+  .security-password-section {
+    width: 100% !important;
+
+    margin-top: 15px !important;
+  }
+
+
+  .security-password-section
+  .security-section-title {
+    margin-bottom: 8px !important;
+
+    font-size: 13px !important;
+    line-height: 17px !important;
+
+    font-weight: 500 !important;
+  }
+
+
+  /* =========================================
+     PASSWORD FIELDS
+  ========================================= */
+
+  .security-password-fields {
+    width: 285px !important;
+    max-width: 285px !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+
+    gap: 10px !important;
+
+    margin: 0 !important;
+  }
+
+
+  .security-password-field {
+    width: 285px !important;
+    max-width: 285px !important;
+
+    margin: 0 !important;
+  }
+
+
+  /* Password label */
+  .security-password-label {
+    display: block !important;
+
+    margin: 0 0 5px !important;
+
+    font-size: 11px !important;
+    line-height: 15px !important;
+
+    font-weight: 400 !important;
+
+    color: #1f2937 !important;
+  }
+
+
+  /* =========================================
+     PASSWORD INPUT
+  ========================================= */
+
+  .security-password-input {
+    width: 285px !important;
+    min-width: 285px !important;
+    max-width: 285px !important;
+
+    height: 40px !important;
+    min-height: 40px !important;
+    max-height: 40px !important;
+
+    padding: 0 12px !important;
+
+    border: 1px solid #d9e4f0 !important;
+
+    border-radius: 7px !important;
+
+    background: #ffffff !important;
+
+    font-size: 11px !important;
+    line-height: 16px !important;
+
+    font-weight: 400 !important;
+
+    color: #718ebf !important;
+
+    box-sizing: border-box !important;
+  }
+
+
+  /* =========================================
+     SAVE BUTTON
+  ========================================= */
+
+  .security-save-wrapper {
+    width: 285px !important;
+
+    margin-top: 15px !important;
+
+    display: block !important;
+  }
+
+
+  .security-save-button {
+    width: 285px !important;
+    min-width: 285px !important;
+    max-width: 285px !important;
+
+    height: 40px !important;
+    min-height: 40px !important;
+    max-height: 40px !important;
+
+    padding: 0 !important;
+
+    border-radius: 7px !important;
+
+    background: #16a34a !important;
+
+    color: #ffffff !important;
+
+    font-size: 15px !important;
+    line-height: 20px !important;
+
+    font-weight: 500 !important;
+
+    display: flex !important;
+
+    align-items: center !important;
+    justify-content: center !important;
+
+    box-sizing: border-box !important;
+
+    box-shadow: none !important;
+  }
+
+
+  .security-save-button:hover {
+    background: #15803d !important;
+  }
+
+
+  .security-save-button:active {
+    background: #166534 !important;
+  }
+}

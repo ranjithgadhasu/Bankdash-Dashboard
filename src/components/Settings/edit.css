@@ -1,0 +1,607 @@
+/* =========================================
+   MOBILE EDIT PROFILE
+   375px - 667px
+========================================= */
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+
+    /* =========================================
+     MAIN CONTAINER
+  ========================================= */
+
+    .edit-profile {
+        width: 325px !important;
+        min-width: 325px !important;
+        max-width: 325px !important;
+
+        padding: 0 !important;
+        margin: 0 !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    /* =========================================
+     MAIN LAYOUT
+  ========================================= */
+
+    .edit-profile-layout {
+        width: 325px !important;
+        min-width: 325px !important;
+        max-width: 325px !important;
+
+        display: flex !important;
+        flex-direction: column !important;
+
+        gap: 0 !important;
+
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+
+    /* =========================================
+     PROFILE IMAGE SECTION
+  ========================================= */
+
+    .edit-profile-image-section {
+        width: 325px !important;
+        height: 190px !important;
+
+        display: flex !important;
+
+        justify-content: center !important;
+        align-items: flex-start !important;
+
+        margin: 0 !important;
+        padding: 10px 0 0 !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    .edit-profile-image-wrapper {
+        position: relative !important;
+
+        width: 174px !important;
+        height: 170px !important;
+
+        margin: 0 !important;
+    }
+
+
+    /* =========================================
+     PROFILE IMAGE
+  ========================================= */
+
+    .edit-profile-image {
+        width: 174px !important;
+        height: 170px !important;
+
+        min-width: 174px !important;
+        min-height: 170px !important;
+
+        max-width: 174px !important;
+        max-height: 170px !important;
+
+        border-radius: 50% !important;
+
+        border: 4px solid #ffffff !important;
+
+        overflow: hidden !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    .edit-profile-image-img {
+        width: 100% !important;
+        height: 100% !important;
+
+        object-fit: cover !important;
+    }
+
+
+    /* =========================================
+     EDIT PENCIL
+  ========================================= */
+
+    .edit-profile-pencil {
+        width: 28px !important;
+        height: 28px !important;
+
+        right: 0 !important;
+        bottom: 5px !important;
+
+        left: auto !important;
+        top: auto !important;
+
+        border-radius: 50% !important;
+
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+
+        background: #1f1df5 !important;
+
+        border: 2px solid #ffffff !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    /* =========================================
+     FORM CARD
+  ========================================= */
+
+    .edit-profile-form-section {
+        width: 325px !important;
+        min-width: 325px !important;
+        max-width: 325px !important;
+
+        padding: 12px 20px 14px !important;
+
+        margin: 0 !important;
+
+        background: #ffffff !important;
+
+        border-radius: 14px !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    /* =========================================
+     FORM GRID
+  ========================================= */
+
+    .edit-profile-form-grid {
+        width: 285px !important;
+
+        display: flex !important;
+        flex-direction: column !important;
+
+        gap: 8px !important;
+
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+
+    /* =========================================
+     FIELD
+  ========================================= */
+
+    .edit-profile-field {
+        width: 285px !important;
+        min-width: 285px !important;
+        max-width: 285px !important;
+
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+
+    /* =========================================
+     LABEL
+  ========================================= */
+
+    .edit-profile-label {
+        width: 285px !important;
+
+        margin: 0 0 4px !important;
+
+        font-size: 13px !important;
+        line-height: 16px !important;
+
+        font-weight: 400 !important;
+
+        color: #1f2937 !important;
+    }
+
+
+    /* =========================================
+     INPUT
+  ========================================= */
+
+    .edit-profile-input {
+        width: 285px !important;
+        min-width: 285px !important;
+        max-width: 285px !important;
+
+        height: 40px !important;
+        min-height: 40px !important;
+        max-height: 40px !important;
+
+        padding: 0 10px !important;
+
+        border-radius: 6px !important;
+
+        border: 1px solid #d9e4f0 !important;
+
+        background: #ffffff !important;
+
+        font-size: 12px !important;
+        line-height: 16px !important;
+
+        font-weight: 400 !important;
+
+        color: #718ebf !important;
+
+        box-sizing: border-box !important;
+
+        outline: none !important;
+    }
+
+
+    .edit-profile-input:focus {
+        border-color: #d9e4f0 !important;
+
+        box-shadow: none !important;
+    }
+
+
+    /* =========================================
+     DATE SELECT
+  ========================================= */
+
+    .edit-profile-select-wrapper {
+        width: 285px !important;
+
+        position: relative !important;
+    }
+
+
+    .edit-profile-select {
+        width: 285px !important;
+        min-width: 285px !important;
+        max-width: 285px !important;
+
+        height: 40px !important;
+        min-height: 40px !important;
+        max-height: 40px !important;
+
+        padding: 0 32px 0 10px !important;
+
+        border-radius: 6px !important;
+
+        border: 1px solid #d9e4f0 !important;
+
+        background: #ffffff !important;
+
+        font-size: 12px !important;
+        line-height: 16px !important;
+
+        font-weight: 400 !important;
+
+        color: #718ebf !important;
+
+        box-sizing: border-box !important;
+
+        outline: none !important;
+    }
+
+
+    .edit-profile-select:focus {
+        border-color: #d9e4f0 !important;
+
+        box-shadow: none !important;
+    }
+
+
+    .edit-profile-select-icon {
+        right: 10px !important;
+
+        width: 14px !important;
+        height: 14px !important;
+
+        color: #718ebf !important;
+    }
+
+
+    /* =========================================
+     SAVE BUTTON
+  ========================================= */
+
+    .edit-profile-save-wrapper {
+        width: 285px !important;
+
+        display: block !important;
+
+        margin: 8px 0 0 !important;
+
+        padding: 0 !important;
+    }
+
+
+    .edit-profile-save {
+        width: 285px !important;
+        min-width: 285px !important;
+        max-width: 285px !important;
+
+        height: 40px !important;
+        min-height: 40px !important;
+        max-height: 40px !important;
+
+        padding: 0 !important;
+
+        margin: 0 !important;
+
+        border-radius: 6px !important;
+
+        background: #15803d !important;
+
+        color: #ffffff !important;
+
+        font-size: 15px !important;
+        line-height: 20px !important;
+
+        font-weight: 500 !important;
+
+        display: flex !important;
+
+        align-items: center !important;
+        justify-content: center !important;
+
+        box-sizing: border-box !important;
+    }
+
+}
+
+
+
+/* =========================================
+   TABLET
+   768px - 1024px
+========================================= */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* =========================================
+     MAIN PROFILE CONTAINER
+  ========================================= */
+
+    .edit-profile {
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+
+        padding: 32px 18px 24px 18px !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    /* =========================================
+     PROFILE LAYOUT
+  ========================================= */
+
+    .edit-profile-layout {
+        display: grid !important;
+
+        grid-template-columns: 120px minmax(0, 1fr) !important;
+
+        gap: 18px !important;
+
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+
+        align-items: start !important;
+    }
+
+
+    /* =========================================
+     PROFILE IMAGE SECTION
+  ========================================= */
+
+    .edit-profile-image-section {
+        grid-column: 1 !important;
+
+        width: 120px !important;
+        min-width: 120px !important;
+        max-width: 120px !important;
+
+        display: flex !important;
+        justify-content: flex-start !important;
+        align-items: flex-start !important;
+
+        box-sizing: border-box !important;
+    }
+
+    .edit-profile-image-wrapper {
+        width: 100px !important;
+        height: 100px !important;
+
+        margin-top: 8px !important;
+    }
+
+    .edit-profile-image {
+        width: 100px !important;
+        height: 100px !important;
+
+        min-width: 100px !important;
+        min-height: 100px !important;
+
+        border-width: 3px !important;
+    }
+
+    .edit-profile-image-img {
+        width: 100% !important;
+        height: 100% !important;
+
+        object-fit: cover !important;
+    }
+
+
+    /* =========================================
+     PENCIL BUTTON
+  ========================================= */
+
+    .edit-profile-pencil {
+        width: 25px !important;
+        height: 25px !important;
+
+        left: 82px !important;
+        top: 68px !important;
+
+        right: auto !important;
+        bottom: auto !important;
+
+        border-width: 2px !important;
+    }
+
+    .edit-profile-pencil svg {
+        width: 11px !important;
+        height: 11px !important;
+    }
+
+
+    /* =========================================
+     FORM SECTION
+  ========================================= */
+
+    .edit-profile-form-section {
+        grid-column: 2 !important;
+
+        width: 100% !important;
+        min-width: 0 !important;
+        max-width: 100% !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    /* =========================================
+     FORM GRID
+  ========================================= */
+
+    .edit-profile-form-grid {
+        display: grid !important;
+
+        grid-template-columns:
+            minmax(0, 1fr) minmax(0, 1fr) !important;
+
+        column-gap: 24px !important;
+        row-gap: 13px !important;
+
+        width: 100% !important;
+        min-width: 0 !important;
+        max-width: 100% !important;
+    }
+
+
+    /* =========================================
+     FORM FIELD
+  ========================================= */
+
+    .edit-profile-field {
+        width: 100% !important;
+        min-width: 0 !important;
+        max-width: 100% !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    /* =========================================
+     LABEL
+  ========================================= */
+
+    .edit-profile-label {
+        display: block !important;
+
+        font-size: 13px !important;
+        font-weight: 400 !important;
+
+        line-height: 16px !important;
+
+        margin-bottom: 6px !important;
+
+        white-space: nowrap !important;
+    }
+
+
+    /* =========================================
+     INPUT
+  ========================================= */
+
+    .edit-profile-input {
+        width: 100% !important;
+
+        height: 36px !important;
+
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+
+        border-radius: 11px !important;
+
+        font-size: 12px !important;
+        font-weight: 400 !important;
+
+        line-height: 14px !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    /* =========================================
+     SELECT
+  ========================================= */
+
+    .edit-profile-select-wrapper {
+        width: 100% !important;
+        min-width: 0 !important;
+    }
+
+    .edit-profile-select {
+        width: 100% !important;
+
+        height: 36px !important;
+
+        padding-left: 12px !important;
+        padding-right: 32px !important;
+
+        border-radius: 11px !important;
+
+        font-size: 12px !important;
+        line-height: 14px !important;
+
+        box-sizing: border-box !important;
+    }
+
+    .edit-profile-select-icon {
+        width: 14px !important;
+        height: 14px !important;
+
+        right: 12px !important;
+    }
+
+
+    /* =========================================
+     SAVE BUTTON
+  ========================================= */
+
+    .edit-profile-save-wrapper {
+        display: flex !important;
+
+        justify-content: flex-end !important;
+
+        width: 100% !important;
+
+        margin-top: 22px !important;
+    }
+
+    .edit-profile-save {
+        width: 116px !important;
+        min-width: 116px !important;
+        max-width: 116px !important;
+
+        height: 38px !important;
+
+        border-radius: 10px !important;
+
+        font-size: 13px !important;
+        font-weight: 500 !important;
+    }
+}

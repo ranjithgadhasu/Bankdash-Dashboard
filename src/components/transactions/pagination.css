@@ -1,0 +1,69 @@
+/* =========================================
+   MOBILE PAGINATION
+   375px - 667px
+========================================= */
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+
+  .pagination {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+
+    gap: 4px !important;
+
+    margin-top: 14px !important;
+  }
+
+
+  /* Previous / Next */
+  .pagination-prev,
+  .pagination-next {
+    font-size: 12px !important;
+    font-weight: 500 !important;
+
+    line-height: 16px;
+
+    white-space: nowrap;
+
+    gap: 2px !important;
+  }
+
+
+  /* Arrows */
+  .pagination-arrow {
+    width: 10px !important;
+    height: 5px !important;
+
+    flex-shrink: 0;
+  }
+
+
+  /* Page numbers */
+  .pagination-number {
+    width: 30px !important;
+    height: 30px !important;
+
+    min-width: 30px !important;
+    min-height: 30px !important;
+
+    border-radius: 7px !important;
+
+    font-size: 12px !important;
+    font-weight: 500 !important;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  /* Active page */
+  .pagination-active {
+    background: #10B981 !important;
+
+    color: #ffffff !important;
+  }
+}

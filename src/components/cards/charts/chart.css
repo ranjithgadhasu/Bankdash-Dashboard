@@ -1,0 +1,246 @@
+/* =========================================
+   MOBILE WEEKLY ACTIVITY CHART
+   375px - 667px
+========================================= */
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+    .weekly-withdraw-bar {
+        width: 10px !important;
+    }
+
+    .weekly-deposit-bar {
+        width: 10px !important;
+    }
+
+    /* Main chart */
+    .weekly-chart {
+        width: 100% !important;
+        height: 250px !important;
+        padding: 0 !important;
+
+        background: none !important;
+
+        border: none !important;
+        border-radius: 0 !important;
+
+        box-shadow: none !important;
+    }
+
+
+    /* Responsive container */
+    .weekly-chart-responsive {
+        width: 100% !important;
+        height: 250px !important;
+    }
+
+
+    .weekly-chart-container {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+
+    /* Chart */
+    .weekly-bar-chart {
+        width: 100%;
+    }
+
+
+    /* Grid */
+    .weekly-chart-grid {
+        stroke: #E8EEF5;
+    }
+
+
+    /* X axis */
+    .weekly-chart-x-axis {
+        font-size: 11px !important;
+    }
+
+
+    /* Y axis */
+    .weekly-chart-y-axis {
+        font-size: 10px !important;
+    }
+
+
+    /* Legend */
+    .weekly-chart-legend {
+        font-size: 11px !important;
+    }
+
+
+    /* Tooltip */
+    .weekly-chart-tooltip {
+        border: none !important;
+    }
+
+
+    /* Bars */
+    .weekly-withdraw-bar {
+        width: 10px;
+    }
+
+    .weekly-deposit-bar {
+        width: 10px;
+    }
+
+    .recharts-symbols {
+        width: 12px !important;
+        height: 12px !important;
+
+    }
+
+    .recharts-legend-item-text {
+        font-size: 12px !important;
+        font-weight: 400 !important;
+    }
+
+    /*Balance History*/
+    
+  /* Main chart container */
+  .balance-history-chart {
+    width: 100% !important;
+    height: 280px !important;
+
+    padding: 0 !important;
+
+    background: transparent !important;
+
+    border: none !important;
+    border-radius: 0 !important;
+
+    box-shadow: none !important;
+  }
+
+
+  /* Recharts container */
+  .balance-history-chart
+  .recharts-responsive-container {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+
+  /* Chart SVG */
+  .balance-history-chart
+  .recharts-surface {
+    overflow: visible;
+  }
+
+
+  /* X Axis */
+  .balance-history-chart
+  .recharts-xAxis
+  .recharts-cartesian-axis-tick-value {
+    fill: #718ebf !important;
+    font-size: 13px !important;
+  }
+
+
+  /* Y Axis */
+  .balance-history-chart
+  .recharts-yAxis
+  .recharts-cartesian-axis-tick-value {
+    fill: #718ebf !important;
+    font-size: 13px !important;
+  }
+
+
+  /* Grid */
+  .balance-history-chart
+  .recharts-cartesian-grid-horizontal line,
+  .balance-history-chart
+  .recharts-cartesian-grid-vertical line {
+    stroke: #d9e3f0 !important;
+    stroke-dasharray: 5 5;
+  }
+
+
+  /* Green Area Line */
+  .balance-history-chart
+  .recharts-area-curve {
+    stroke: #10B981 !important;
+    stroke-width: 4px !important;
+  }
+
+
+  /* Green Area Fill */
+  .balance-history-chart
+  .recharts-area-area {
+    fill: url(#balanceFill) !important;
+  }
+
+
+  /* Tooltip */
+  .balance-history-chart
+  .recharts-tooltip-wrapper {
+    outline: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .weekly-withdraw-bar {
+        width: 10px !important;
+    }
+
+    .weekly-deposit-bar {
+        width: 10px !important;
+    }
+
+
+    .weekly-chart {
+        width: 400px !important;
+        height: 261px !important;
+        margin-left: -15px !important;
+    }
+
+    .recharts-legend-item {
+        font-size: 13px !important;
+        font-weight: 400 !important;
+    }
+
+    .recharts-symbols {
+        width: 12px !important;
+        height: 12px !important;
+    }
+
+    .recharts-legend-item-text {
+        font-size: 13px !important;
+        font-weight: 400 !important;
+    }
+
+    .recharts-cartesian-axis-tick-value {
+        font-size: 12px !important;
+    }
+
+    .expense-chart {
+        width: 220px !important;
+        height: 261px !important;
+        margin-left: -10px !important;
+    }
+
+    .expense-pie-chart {
+        width: 181.38px !important;
+        height: 175px !important;
+        opacity: 1;
+        margin-left: -35px !important;
+        border-radius: 24px;
+    }
+
+    .balance-history-chart {
+        width: 300px !important;
+        height: 250px !important;
+        margin-top: -10px;
+        margin-left: -10px !important;
+    }
+
+}
